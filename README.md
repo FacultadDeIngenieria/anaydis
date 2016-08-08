@@ -1,6 +1,6 @@
 ## Presentaciones
 
-1. [Introduction](introduction)
+1. [Introducción al Análisis de Algoritmos](introduction)
 
 ## Trabajos Prácticos
 
