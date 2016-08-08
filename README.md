@@ -1,3 +1,7 @@
+## Programa de la materia
+
+* [Programa](resources/Programa.pdf)
+
 ## Presentaciones
 
 1. [Introducción al Análisis de Algoritmos](introduction)
@@ -8,5 +12,6 @@
 
 ### Cátedra
 
+* Emilio López Gabeiras
 * Pedro Colunga: [pedro.colunga@ing.austral.edu.ar](mailto:pedro.colunga@ing.austral.edu.ar)
 * Lucas Luppani: [lucas.luppani@ing.austral.edu.ar](mailto:lucas.luppani@ing.austral.edu.ar)
