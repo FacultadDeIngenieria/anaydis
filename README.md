@@ -5,6 +5,7 @@
 ## Presentaciones
 
 1. [Introducción al Análisis de Algoritmos](introduction)
+2. [Algoritmos Elementales de Sorting](elemental_sorters)
 
 ## Trabajos Prácticos
 
