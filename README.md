@@ -10,6 +10,7 @@
 ## Trabajos Prácticos
 
 1. [TP1](practice/1)
+2. [TP2](practice/2)
 
 ### Cátedra
 
