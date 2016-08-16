@@ -16,7 +16,7 @@ class: center, middle, inverse
 
 * Permiten establecer una base o metodología para analizar otros algoritmos
 
-* Son los más rápidos en algunas situaciones especiales
+* Son los más rápidos en algunas situaciones especiales
 
 * Pueden extenderse para formar parte de los algoritmos más sofisticados y de propósito general
 
@@ -39,7 +39,7 @@ class: center, middle, inverse
 * Si la tabla de datos es un archivo de registros en disco (no cabe en memoria), los algoritmos se llaman externos. Los registros deberían ser accedidos en forma secuencial.
 
 * Analizaremos tiempo de ejecución:
-  * Proporcional a la cantidad de comparaciones y de intercambios que se hacen sobre la tabla
+  * Proporcional a la cantidad de comparaciones y de intercambios que se hacen sobre la tabla
 
 ???
 
@@ -84,7 +84,7 @@ Factores a analizar
 * Sorting directo vs indirecto
 
 * Indirecto:
-  * Cuando los elementos son grandes es preferible no moverlos, sólo se mueven sus referencias
+  * Cuando los elementos son grandes es preferible no moverlos, sólo se mueven sus referencias
   * Al finalizar el sorting, a veces es conveniente reordenar los elementos, a veces sólo es necesario dejar ordenadas las referencias
 
 ---
@@ -111,7 +111,7 @@ Factores a analizar
 
 * Debe ser consistente
   * Transitividad: si (a < b) y (b < c) ➔ (a < c)
-  * Tricotomía: (a < b) ó (a > b) ó (a = b)
+  * Tricotomía: (a < b) ó (a > b) ó (a = b)
 
 * Tipos comparables
   * Built-in: String, Double, Integer, Date, File, …
