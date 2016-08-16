@@ -51,7 +51,7 @@ class: center, middle, inverse
 
 * Archivo de registros con clave
 
-![]({{site.baseurl}}/presentation/elemental_sorters/registros_claves.jpg)
+.center.full-width[![]({{site.baseurl}}/presentation/elemental_sorters/registros_claves.jpg)]
 
 ---
 
@@ -171,7 +171,7 @@ No element to right of ↑ is smaller than any element to its left.
 
 * In place sorting
 
-![]({{site.baseurl}}/presentation/elemental_sorters/selection_sort.jpg)
+.center.full-width[![]({{site.baseurl}}/presentation/elemental_sorters/selection_sort.jpg)]
 
 ???
 
@@ -207,7 +207,7 @@ public class Selection extends AbastractSort {
 # Análisis
 
 * comparaciones: N-1 +N-2+...+2+1 = N(N-1)/2 =~N2/2, intercambios: N-1
-![]({{site.baseurl}}/presentation/elemental_sorters/selection_sort_analisis.jpg)
+.center.full-width[![]({{site.baseurl}}/presentation/elemental_sorters/selection_sort_analisis.jpg)]
 
 ???
 
@@ -248,7 +248,7 @@ Elements to the right of ↑ have not yet been seen.
 
 # Insertion Sort
 
-![]({{site.baseurl}}/presentation/elemental_sorters/insertion_sort.jpg)
+.center.full-width[![]({{site.baseurl}}/presentation/elemental_sorters/insertion_sort.jpg)]
 
 ???
 
@@ -310,7 +310,7 @@ void sort(Comparable[] a) {
   * comparaciones: (N-1 +N-2+...+2+1)/2 =~N2/4
   * intercambios: N2/4 (movimientos)
 
-![]({{site.baseurl}}/presentation/elemental_sorters/insertion_sort_analisis.jpg)
+.center.full-width[![]({{site.baseurl}}/presentation/elemental_sorters/insertion_sort_analisis.jpg)]
 
 ???
 
@@ -350,7 +350,7 @@ Peor caso: orden descendente
   * Los elementos se acumulan en el final de la lista a ordenar [Sample](http://www.cs.oswego.edu/~mohammad/classes/csc241/samples/sort/Sort2-E.html)
   * Los elementos se acumulan al principio de la lista a ordenar:
 
-![]({{site.baseurl}}/presentation/elemental_sorters/bubble_sort.jpg)
+.center[![]({{site.baseurl}}/presentation/elemental_sorters/bubble_sort.jpg)]
 
 ---
 
@@ -427,7 +427,7 @@ In one type of partially sorted file, each item is close to its final position i
 
 # Identificar los algoritmos
 
-![]({{site.baseurl}}/presentation/elemental_sorters/id_algoritmos.jpg)
+.center[![]({{site.baseurl}}/presentation/elemental_sorters/id_algoritmos.jpg)]
 
 ???
 
@@ -440,7 +440,7 @@ Derecha: selection sort
 
 * Un método de sorting es estable si preserva el orden relativo de los items con claves duplicadas en el file/tabla.
 
-![]({{site.baseurl}}/presentation/elemental_sorters/estabilidad.jpg)
+.center[![]({{site.baseurl}}/presentation/elemental_sorters/estabilidad.jpg)]
 
 ???
 
@@ -480,7 +480,7 @@ Not included here is the case where exchanges are expensive; then selection sort
 * Un archivo h‐sorted tiene la propiedad de que tomando un subset cada h elementos, resulta un file ordenado.
 * Un archivo 3-ordenado (3-sorted) son 3 archivos ordenados entrelazados
 
-![]({{site.baseurl}}/presentation/elemental_sorters/hsort.jpg)
+.center[![]({{site.baseurl}}/presentation/elemental_sorters/hsort.jpg)]
 
 ---
 
@@ -488,7 +488,7 @@ Not included here is the case where exchanges are expensive; then selection sort
 * Aplicamos insertion sort con un incremento de h
 * Ejemplo: 3-sort de un file
 
-![]({{site.baseurl}}/presentation/elemental_sorters/3hsort.jpg)
+.center[![]({{site.baseurl}}/presentation/elemental_sorters/3hsort.jpg)]
 
 ---
 
@@ -524,7 +524,7 @@ r = N-1
 
 # Ejemplo
 
-![]({{site.baseurl}}/presentation/elemental_sorters/shell_sort_ejemplo.jpg)
+.center[![]({{site.baseurl}}/presentation/elemental_sorters/shell_sort_ejemplo.jpg)]
 
 ???
 
