@@ -578,13 +578,13 @@ void shell(Comparable[] a, int l, int r) {
 
 * La complejidad del algoritmo depende de la secuencia utilizada. Por ejemplo:
 
-* O(N3/2) comparaciones para incrementos: 
+* O(N<sup>3/2</sup>) comparaciones para incrementos: 
   * 1 4 13 40 121 364 1093 3280 9841
 
-* O(N4/3) para incrementos
+* O(N<sup>4/3</sup>) para incrementos
   * 1 8 23 77 281 1073 4193 16577
 
-* O(N(log N)2) para incrementos
+* O(N(log N)<sup>2</sup>) para incrementos
   * 1 2 3 4 6 9 8 12 18 27 16 24 36 54 81
 
 ---
