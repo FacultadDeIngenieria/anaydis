@@ -151,7 +151,7 @@ Ignorar random shuffle!
   * Degenera con casos típicos → tiempo de ejecución cuadrático
 * Peor caso 
   * Archivo ordenado ascendente o descendente
-  * Comparaciones: N-1 + N-2 + ... + 2 + 1 = N(N-1)/2 = ~N2/2
+  * Comparaciones: N-1 + N-2 + ... + 2 + 1 = N(N-1)/2 = ~N<sup>2</sup>/2
   * El tamaño del stack es ~N → no aceptable para archivos muy grandes
 * Mejor caso
   * Cuando el particionamiento divide al archivo por la mitad
