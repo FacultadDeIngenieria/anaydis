@@ -243,7 +243,7 @@ end- or tail-recursion removal. If the last action of a procedure is to call ano
 
 ---
 
-# Híbrido
+# Quicksort Híbrido
 
 Idea:
 * Un sort recursivo se invoca a sí mismo para muchos pequeños subarchivos → El método que usa para estos debería ser el mejor posible
@@ -252,7 +252,7 @@ Idea:
   * Al principio de la llamada recursiva:
 
 ```java
-if( hi - low <= M) {  	
+if (hi - low <= M) {  	
 	insertion(a, low, hi);        
 	return; 
 }
@@ -260,7 +260,7 @@ if( hi - low <= M) {
 
 ---
 
-# Híbrido
+# Quicksort Híbrido
 
 * Otra forma de implementarlo
 
@@ -286,13 +286,13 @@ static void hybridsort(Comparable[] a, int l, int r)
 
 ---
 
-# Híbrido (2)
+# Quicksort Híbrido (2)
 
 .center[![]({{site.baseurl}}/presentation/quicksort/hibrido.jpg)]
 
 ---
 
-# Híbrido (3)
+# Quicksort Híbrido (3)
 
 * M: valor de corte (parámetro a optimizar)
 * Las pruebas muestran que lo recomendable es entre 5 y 25
