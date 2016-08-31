@@ -207,8 +207,8 @@ static void quicksortNonRecursive(Comparable[] a, int l, int r)
 		}
 		int i = partition(a, l, r);
 		if (i - l > r - i) {
-		S.push(l);
-		S.push(i - 1);
+			S.push(l);
+			S.push(i - 1);
 		}
 		S.push(i + 1);
 		S.push(r);
