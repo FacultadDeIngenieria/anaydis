@@ -32,10 +32,10 @@ int[] merge(int[] a, int[] b) {
 
 	for (int i = 0, j = 0, k = 0; k < result.length; k++) {
 		if(i >= a.length) {
-			result[k] = b[j++];
+			result[k] = b[i++];
 		}
 		else if (j >= b.length) {
-			result[k] = b[j++];
+			result[k] = a[j++];
 		}
 		else {
 			result[k] = a[i] < b[j] ? a[i++] : b[j++];
