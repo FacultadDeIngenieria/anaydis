@@ -16,6 +16,10 @@
 3. [TP3](practice/3)
 4. [TP4](practice/4)
 
+## Links
+
+1. [Tail Recursion in Java, why not?](http://www.drdobbs.com/jvm/tail-call-optimization-and-java/240167044)
+
 ### Cátedra
 
 * Emilio López Gabeiras
