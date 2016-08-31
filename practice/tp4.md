@@ -11,7 +11,7 @@ permalink: /practice/4
 
 ## Ejercicio 1
 
-1. Implementar quicksort recursivo básico.
+1. Implementar quicksort NO recursivo básico.
 2. Implementar un quicksort recursivo con cutoff por insertion sort para subfiles de tamaño menor a M.
 3. Determinar, empíricamente, el valor de M para el cual la implementación se ejecuta en menor tiempo, ordenando files de N enteros random, para N = 10<sup>3</sup>, 10<sup>4</sup>, 10<sup>5</sup>, y 10<sup>6</sup>. Explicar el procedimiento mostrando un detalle de los resultados obtenidos.
 
