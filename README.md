@@ -7,7 +7,8 @@
 1. [Introducción al Análisis de Algoritmos](introduction)
 2. [Algoritmos Elementales de Sorting](elemental_sorters)
 3. [Quicksort](quicksort)
-3. [Mergesort](mergesort)
+4. [Mergesort](mergesort)
+5. [Search](search)
 
 ## Trabajos Prácticos
 
