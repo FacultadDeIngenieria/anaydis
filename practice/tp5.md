@@ -15,8 +15,9 @@ En las librerías se encuentra una interfaz anaydis.search.Map (Es un subset mod
 
 Este ADT representa lo que se conoce como “Diccionario” y en particular no soporta claves duplicadas ni nulas.
 Debe implementar, respetando la documentación, la interfaz Map con las siguientes estructuras subyacentes:
-ArrayMap: utilizando un array.
-RandomizedTreeMap: utilizando un árbol probabilístico.
+
+* ArrayMap: utilizando un array.
+* RandomizedTreeMap: utilizando un árbol probabilístico.
 
 ## Ejercicio 2
 
