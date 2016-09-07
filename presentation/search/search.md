@@ -169,4 +169,222 @@ override fun put(key: K, value: V) {
 
 # Binary Trees
 
+.center[![]({{site.baseurl}}/presentation/search/arbol_binario.gif)]
 
+---
+
+# Tree Map
+
+```kotlin
+/**
+ * Tree map
+ */
+abstract class TreeMap<K, V> : Map<K, V> {
+
+    protected var head : Node<K, V>? = null;
+    protected var size : Int = 0;
+
+    override fun size(): Int = size
+
+    protected class Node<K, V>(var key : K, var value : V,
+                               var left : Node<K, V>? = null,
+                               var right : Node<K, V>? = null)
+    {
+        override fun toString() = "$key[$value]"
+    }
+}
+```
+
+---
+
+# Binary Tree
+
+```kotlin
+override fun get(key: K): V? {
+    val node = find(head, key)
+    return node?.value
+}
+
+override fun contains(key: K): Boolean = find(head, key) != null
+
+private fun find(node: Node<K, V>?, key: K): Node<K, V>? {
+    if(node == null) return null
+    val cmp = comparator.compare(key, node.key)
+    return when {
+        cmp == 0 -> node
+        cmp < 0 -> find(node.left, key)
+        else -> find(node.right, key)
+    }
+}
+```
+
+---
+
+# Binary Tree
+
+```kotlin
+override fun put(key: K, value: V) {
+    head = put(head, key, value)
+}
+
+private fun put(node : Node<K, V>?, key: K, value: V): Node<K, V> {
+    return when (node) {
+        null -> {
+            size++
+            Node(key, value)
+        }
+        else -> {
+            val cmp = comparator.compare(key, node.key)
+            when {
+                cmp < 0 -> node.left = put(node.left, key, value)
+                cmp > 0 -> node.right = put(node.right, key, value)
+                else -> node.value = value
+            }
+            node
+        }
+    }
+}
+```
+
+---
+
+```kotlin
+override fun remove(key: K) {
+    head = remove(head, key)
+}
+
+private fun remove(node : Node<K, V>?, key: K): Node<K, V>? {
+    if(node == null) return null
+    val cmp = comparator.compare(key, node.key)
+    return when {
+        cmp < 0 -> {
+            node.left = remove(node.left, key)
+            node
+        }
+        cmp > 0 -> {
+            node.right = remove(node.right, key)
+            node
+        }
+        else -> {
+            size--
+            when {
+                node.left == null -> node.right
+                node.right == null -> node.left
+                else -> {
+                    val next : Node<K, V> = first(node.right)
+                    node.key = next.key
+                    node.value = next.value
+                    next.key = key
+                    node.right = remove(node.right, key)
+                    node
+                }
+            }
+        }
+    }
+}
+```
+
+---
+
+# Árboles con inserción en raíz
+
+* Insertar de forma que el nuevo nodo pase a ser la raíz del árbol
+* Búsqueda más rápida para los nodos más recientes
+* Implementación:
+    * Inserto a derecha -> roto a izquierda
+    * Inserto a izquierda -> roto a derecha
+
+---
+
+# Rotaciones
+
+.center[![]({{site.baseurl}}/presentation/search/rotations.png)]
+
+---
+
+# Rotaciones
+
+```kotlin
+private fun rotateRight(node : Node<K, V>) : Node<K, V> {
+    val result = node.left!!
+    node.left = result.right
+    result.right = node
+    return result
+}
+
+private fun rotateLeft(node : Node<K, V>) : Node<K, V> {
+    val result = node.right!!
+    node.right = result.left
+    result.left = node
+    return result
+}
+```
+
+---
+
+# Root insertion tree
+
+.center[![]({{site.baseurl}}/presentation/search/root_insertion_tree.gif)]
+
+
+---
+
+# Root insertion tree
+
+```kotlin
+override fun put(key: K, value: V) {
+    head = rootPut(head, key, value)
+}
+
+private fun rootPut(node: Node<K, V>?, key: K, value: V): Node<K, V>? {
+    return when (node) {
+        null -> {
+            size++
+            Node(key, value)
+        }
+        else -> {
+            val cmp = comparator.compare(key, node.key)
+            when {
+                cmp < 0 -> {
+                    node.left = rootPut(node.left, key, value)
+                    rotateRight(node)
+                }
+                cmp > 0 -> {
+                    node.right = rootPut(node.right, key, value)
+                    rotateLeft(node)
+                }
+                else -> {
+                    node.value = value
+                    node
+                }
+            }
+        }
+    }
+}
+```
+
+---
+
+# Árboles Balanceados
+
+* Objetivo: Garantizar O(log<sub>2</sub>N)
+* Probabilístico
+* Amortizado (promedio)
+
+---
+
+# Randomized Tree
+
+* Insertar por raíz en forma random
+* Probabilístico
+
+---
+
+# Splay Trees
+
+* El árbol se reajusta con cada operación
+* Cuando agrego o busco X muevo a X hacia la raiz usando una rotación “doble”
+* Mantengo el árbol balanceado sin usar información adicional
+* Amortizado
+    * Una operación puede tardar: N
+    * N operaciones tardan: N * log<sub>2</sub>N
