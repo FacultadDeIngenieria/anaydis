@@ -70,7 +70,7 @@ class ArrayMap<K, V>(max : Int) : Map<K, V>
     override fun contains(key: K) = indexOf(key) != -1
 
     private fun indexOf(key : K) : Int {
-        for(index in keys.indices) {
+        for(index in 0..size-1) {
             if(key!!.equals(keys[index])) return index
         }
         return -1
@@ -106,7 +106,7 @@ override fun remove(key: K) {
             keys[i-1] = keys[i]
             values[i-1] = values[i]
         }
-        size--;
+        size--
     }
 }
 ```
