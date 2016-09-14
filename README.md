@@ -9,6 +9,7 @@
 3. [Quicksort](quicksort)
 4. [Mergesort](mergesort)
 5. [Search](search)
+6. [Tries](tries)
 
 ## Trabajos Prácticos
 
@@ -16,7 +17,6 @@
 2. [TP2](practice/2)
 3. [TP3](practice/3)
 4. [TP4](practice/4)
-5. [TP4Bis](practice/4bis)
 6. [TP5](practice/5)
 7. [TP6](practice/6)
 
