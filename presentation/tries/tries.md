@@ -15,7 +15,7 @@ class: center, middle, inverse
 
 # Trie
 
-Ejemplo: *TRES TIGRES COMEN TRIGO EN UN TRIGAL*
+Ejemplo: **TRES TIGRES COMEN TRIGO EN UN TRIGAL**
 
 .center[![]({{site.baseurl}}/presentation/tries/trestigrestrigal.png)]
 

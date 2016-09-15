@@ -4,7 +4,11 @@ class: center, middle, inverse
 
 ---
 
+layout: true
+
 # Shift Happens
+
+---
 
 ### shift left << y >> shift right
 
@@ -22,14 +26,11 @@ class: center, middle, inverse
 0x0FFFFFFF >> 4 == 0x00FFFFFF
 ```
 
-
 El operador **shift right** es **signed**. Java, igual que muchos otros lenguajes, usa el bit más significativo como signo.
 
 Un **signed shift-right** va a ***shiftear*** utilizando el valor del signo. Así, un binario que comienza en '1' agregará '1's y un binario que comienza en '0' agregará '0's.
 
 ---
-
-# Shift Happens
 
 ### unsigned shift right >>>
 
@@ -51,31 +52,36 @@ int bitmask = 1 << 3;
 ```
 ---
 
+layout: true
+
 # BitWise Operations
+
+---
 
 #### & *** and***
 ```java
 1010 & 0101 == 0000
 1100 & 0110 == 0100
 ```
+--
 #### ~ *** unary complement***
 ```java
 ~1111 == 0000
 ~0011 == 1100
 ```
+--
 #### | *** inclusive or***
 ```java
 1010 | 0101 == 1111
 1100 | 0110 == 1110
 ```
+--
 #### ^ *** exclusive or***
 ```java
 1010 ^ 0101 == 1111
 1100 ^ 0110 == 1010
 ```
 ---
-
-# BitWise Operations
 
 Se puede ***prender*** un bit en un número mediante una operación de **or** con otro número definido por ese bit.
 
@@ -84,7 +90,7 @@ Se puede ***prender*** un bit en un número mediante una operación de **or** co
 10000001 | 1 << 5 = 10100001 /* prendimos el bit 5 */
 00000000 | 1 << 2 | 1 << 5 = 00100100 /* prendimos los bits 2 y 5 */
 ```
-
+--
 Se puede ***apagar*** un bit en un número mediante una operación de **and** con otro número definido únicamente por '1's excepto el bit en cuestión.
 
 ```java
@@ -92,6 +98,8 @@ Se puede ***apagar*** un bit en un número mediante una operación de **and** co
 ```
 
 ---
+
+layout: false
 
 # Bit Order
 
@@ -109,7 +117,11 @@ Así, el valor del bit 0 es 2^0, bit 1 es 2^1, ..., bit 7 es 2^7.
 
 ---
 
+layout: true
+
 # bitAt
+
+---
 
 Implementación de un método que devuelve el enésimo **bit** de un **String**.
 
@@ -118,6 +130,7 @@ boolean bitAt(String s, int nth) { ... }
 ```
 
 Ejemplo: el bit #11 en el String "ana" -> [01100001,01101110,01100001]
+
 ```java
 |---------------------- byte 0 ("a")
 |       |-------------- byte 1 ("n")
@@ -129,29 +142,34 @@ Ejemplo: el bit #11 en el String "ana" -> [01100001,01101110,01100001]
 |      |---------------- bit 0
 |----------------------- bit 7
 ```
+--
+
 Para obtener el caracter correspondiente al enésimo bit: **11 / 8 == 1**
+
+--
 
 Para obtener el bit dentro del caracter correspondiente: **11 % 8 == 3**
 
 ---
 
-# bitAt
-
 Obtenemos el char correspondiente
 ```java
 "ana".charAt(11 / 8) == 01101110
 ```
+--
 
 **Right shift** para dejar el enésimo como primer bit
 ```java
 01101110 >> (11 % 8) == 00001101
 ```
+--
 
 **And** con la máscara de primer bit
 ```java
 00001101 & 00000001 == 00000001 // Bit prendido si es distinto a cero
 ```
 
+--
 ### Implementación
 
 ```java

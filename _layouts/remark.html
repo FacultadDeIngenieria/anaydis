@@ -67,7 +67,10 @@
       if(s.innerHTML.indexOf("class") == 6) {
           s.innerHTML = s.innerHTML.substring(6);
       }
-      remark.create({navigation: {scroll: false}});
+      remark.create({
+        navigation: {scroll: false},
+        highlightLines: true
+      });
     </script>
   </body>
 </html>
