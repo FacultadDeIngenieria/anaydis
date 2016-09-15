@@ -9,7 +9,8 @@
 3. [Quicksort](quicksort)
 4. [Mergesort](mergesort)
 5. [Search](search)
-6. [Tries](tries)
+6. [Bits](bits)
+7. [Tries](tries)
 
 ## Trabajos Prácticos
 
