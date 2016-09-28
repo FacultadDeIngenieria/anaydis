@@ -22,6 +22,8 @@
 6. [TP5](practice/5)
 7. [TP6](practice/6)
 
+### [Exercices](practice/exercices)
+
 ## Links
 
 1. [Tail Recursion in Java, why not?](http://www.drdobbs.com/jvm/tail-call-optimization-and-java/240167044)
