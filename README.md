@@ -22,7 +22,7 @@
 6. [TP5](practice/5)
 7. [TP6](practice/6)
 
-### [Exercices](practice/exercices)
+* [Exercices](practice/exercices)
 
 ## Links
 
