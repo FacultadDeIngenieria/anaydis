@@ -11,6 +11,7 @@
 5. [Search](search)
 6. [Bits](bits)
 7. [Tries](tries)
+8. [Immutable Collections](immutables)
 
 ## Trabajos Prácticos
 
