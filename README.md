@@ -22,12 +22,14 @@
 4. [TP4Bis](practice/4bis)
 6. [TP5](practice/5)
 7. [TP6](practice/6)
+8. [TP7](practice/7)
 
 * [Exercices](practice/exercices)
 
 ## Links
 
 1. [Tail Recursion in Java, why not?](http://www.drdobbs.com/jvm/tail-call-optimization-and-java/240167044)
+2. [Implementing Persistent Vectors](http://www.codecommit.com/blog/scala/implementing-persistent-vectors-in-scala)
 
 ### Cátedra
 
