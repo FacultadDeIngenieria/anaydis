@@ -32,10 +32,14 @@ class: center, middle, inverse
 * Reducir repeticiones sucesivas de un símbolo. Ej:
   * AAAAAAABCCCCCCCCCDABBBBBBBBBBBBB -> 7AB9CDA13B
 
+--
+
 * Para caracteres:
   * Usar un prefijo (ej: 0xFF) (escape character)
   * AAAAAAABCCCCCCCCCDABBBBBBBBBBBBB 
   * 0xFF 0x07 'A' 'B' 0xFF 0x09 'C' 'D' 0xFF 0x0D 'B’
+
+--
 
 * En binario: alternar número de ceros, número de unos
   * 00000000000000000000110000000000000000 
