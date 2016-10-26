@@ -180,7 +180,9 @@ Entropía: Paper "A Mathematical Theory of Communication". Mide la incertidumbre
 # Entropy Encoding
 
 * Conclusión:
-  * La entropía mide el número promedio de bits necesarios para codificar un alfabeto.
+  * La entropía mide el número promedio de bits necesarios para codificar un alfabeto a través de un codificador óptimo.
+  * Determina el límite máximo de compresión de un mensaje sin ninguna pérdida de información (demostrado analíticamente por Shannon):
+    * el límite de compresión (en bits) es igual a la entropía multiplicada por el largo del mensaje.
 
 * Entropy Encoding:
   * Codificación donde cada símbolo tiene una cantidad de bits basado en la probabilidad de ocurrencia
@@ -189,6 +191,9 @@ Entropía: Paper "A Mathematical Theory of Communication". Mide la incertidumbre
   * Morse: E: \*, A: \* _, Z: _ _ \* \*
   * Huffman
   * Compresión Aritmética
+
+???
+Un codificador óptimo es aquel que utiliza el mínimo número de bits para codificar un mensaje.
 
 ---
 
