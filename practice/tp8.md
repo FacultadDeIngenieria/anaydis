@@ -4,7 +4,7 @@ layout: practice
 permalink: /practice/8
 ---
 
-# Práctica 8: Immutability
+# Práctica 8: Compression
 
 * Fecha: 26 de Octubre, 2016
 * Fecha de Entrega: 2 de Noviembre, 2016
