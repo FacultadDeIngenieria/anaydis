@@ -12,6 +12,7 @@
 6. [Bits](bits)
 7. [Tries](tries)
 8. [Immutable Collections](immutables)
+9. [Compresión](compresion)
 
 ## Trabajos Prácticos
 
