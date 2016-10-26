@@ -24,6 +24,7 @@
 6. [TP5](practice/5)
 7. [TP6](practice/6)
 8. [TP7](practice/7)
+8. [TP8](practice/8)
 
 * [Exercices](practice/exercices)
 
