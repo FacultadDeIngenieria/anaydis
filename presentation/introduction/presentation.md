@@ -305,9 +305,14 @@ creciente, en promedio, el tiempo será proporcional a g.
 
 ---
 
-# Omega y Theta
+# Omega
 
 ![]({{site.baseurl}}/presentation/introduction/omega.jpg)
+
+---
+
+# Theta
+
 ![]({{site.baseurl}}/presentation/introduction/theta.jpg)
 
 ---
