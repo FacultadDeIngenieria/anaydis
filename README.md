@@ -6,7 +6,7 @@
 
 
 1. [Introducción al Análisis de Algoritmos](introduction)
-<!-- 2. [Algoritmos Elementales de Sorting](elemental_sorters) -->
+2. [Algoritmos Elementales de Sorting](elemental_sorters)
 <!-- 3. [Quicksort](quicksort) -->
 <!-- 4. [Mergesort](mergesort) -->
 <!-- 5. [Search](search) -->   
@@ -19,7 +19,7 @@
 ## Trabajos Prácticos
 
 1. [TP1](practice/1)
-<!-- 2. [TP2](practice/2) -->
+2. [TP2](practice/2)
 <!-- 3. [TP3](practice/3) -->
 <!-- 4. [TP4](practice/4) -->
 <!-- 4. [TP4Bis](practice/4bis) -->
