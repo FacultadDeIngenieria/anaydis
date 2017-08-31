@@ -17,7 +17,7 @@ permalink: /practice/4
 
 ## Ejercicio 2
 
-1. Implementar quicksort no recursivo, median-of-three partitioning y three-way partition.
+1. Implementar quicksort median-of-three partitioning y three-way partition.
 2. Realizar un análisis empírico comparativo de performance entre las distintas variantes de quicksort. 
 
 Analizar las 5 variantes implementadas. Para la versión híbrida (cutoff), utilizar el M óptimo hallado en 1.c)
