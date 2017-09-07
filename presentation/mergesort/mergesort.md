@@ -118,8 +118,8 @@ void merge(int[] array, int low, int middle, int high) {
 void sort(int[] array, int low, int high) {
 	for(int middle = 1; middle <= high - low; middle *= 2) {
 		final int middleX2 = middle * 2;
-		for (int low1 = low; low1 <= high - middle; mow1 += middleX2) {
-			final int high1 = Math.min(low1 - low + middle2 - 1, high);
+		for (int low1 = low; low1 <= high - middle; low1 += middleX2) {
+			final int high1 = Math.min(low1 - low + middleX2 - 1, high);
 			merge(array, low1, low1 + middle - 1, high1);
 		}
 	}
