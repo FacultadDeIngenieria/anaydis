@@ -196,25 +196,25 @@ Note that 2N ln N 1.39N lg N, so the average number of comparisons is only about
 ```java
 static void quicksortNonRecursive(Comparable[] a, int l, int r)
 {
-	IntStack S = new IntStack(50);
-	S.push(l);
-	S.push(r);
-	while (!S.empty()) {
-		r = S.pop();
-		l = S.pop();
+	IntStack stack = new IntStack(50);
+	stack.push(l);
+	stack.push(r);
+	while (!stack.empty()) {
+		r = stack.pop();
+		l = stack.pop();
 		if (r <= l) {
 			continue;
 		}
 		int i = partition(a, l, r);
 		if (i - l > r - i) {
-			S.push(l);
-			S.push(i - 1);
+			stack.push(l);
+			stack.push(i - 1);
 		}
-		S.push(i + 1);
-		S.push(r);
+		stack.push(i + 1);
+		stack.push(r);
 		if (r - i >= i – l) {
-			S.push(l);
-			S.push(i - 1);
+			stack.push(l);
+			stack.push(i - 1);
 		}
 	}
 }
