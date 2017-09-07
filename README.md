@@ -35,6 +35,7 @@
 
 1. [Tail Recursion in Java, why not?](http://www.drdobbs.com/jvm/tail-call-optimization-and-java/240167044)
 2. [Implementing Persistent Vectors](http://www.codecommit.com/blog/scala/implementing-persistent-vectors-in-scala)
+3. [macOS Sierra Debug Problem Fix](https://stackoverflow.com/questions/44680463/intellij-idea-debugger-is-too-slow-to-start-on-macos)
 
 ### Cátedra
 
