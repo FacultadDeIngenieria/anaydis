@@ -58,6 +58,8 @@ interface Map<K, V> {
 
 # Array based implementation
 
+[Kotlin Array Doc](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-array/)
+
 ```kotlin
 class ArrayMap<K, V>(max : Int) : Map<K, V>
 {
@@ -71,7 +73,7 @@ class ArrayMap<K, V>(max : Int) : Map<K, V>
 
     private fun indexOf(key : K) : Int {
         for(index in 0..size-1) {
-            if(key!!.equals(keys[index])) return index
+            if(key.equals(keys[index])) return index
         }
         return -1
     }
@@ -84,6 +86,10 @@ class ArrayMap<K, V>(max : Int) : Map<K, V>
         }
     }
 ```
+
+???
+
+Null safety on Kotlin: https://kotlinlang.org/docs/reference/null-safety.html
 
 ---
 
