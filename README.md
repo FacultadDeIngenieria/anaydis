@@ -12,7 +12,7 @@
 5. [Search](search)   
 <!-- 6. [Bits](bits) -->
 7. [Tries](tries)
-<!-- 8. [Immutable Collections](immutables) -->
+8. [Immutable Collections](immutables)
 <!-- 9. [Compresión](compresion) -->
 <!-- 10. [Cryptography](https://docs.google.com/a/ing.austral.edu.ar/presentation/d/1UAU9YEm9NVGmVXYC1T2WYYG6PKFZ23wY7HGL77-XZCI/edit?usp=sharing) (Usar login de la facultad para verla) -->
 
