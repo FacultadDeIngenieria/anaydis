@@ -10,7 +10,7 @@ layout: true
 
 ---
 
-### shift left << y >> shift right
+### shift left `<<` y `>>` shift right
 
 ```java
 /* 00000001 << 1 = 00000010 */
@@ -32,7 +32,7 @@ Un **signed shift-right** va a ***shiftear*** utilizando el valor del signo. As�
 
 ---
 
-### unsigned shift right >>>
+### unsigned shift right `>>>`
 
 Se puede utilizar un tercer operador llamado **unsigned shift right**. Este operador siempre agregará '0's sin importar el signo.
 
@@ -44,7 +44,7 @@ Se puede utilizar un tercer operador llamado **unsigned shift right**. Este oper
 0x80000000 >> 1  == 0xC0000000
 ```
 
-Usos comunes de **shifting** incluyen la creación de potencias de dos (1<<2, 1<<3, ...) y similarmente ***shifteando*** a derecha dividimos un número por dos. También se utiliza para la creación de **bitmasks** (máscaras) utilizadas para aislar o alterar una parte específica de un número binario.
+Usos comunes de **shifting** incluyen la creación de potencias de dos (1`<<`2, 1`<<`3, ...) y similarmente ***shifteando*** a derecha dividimos un número por dos. También se utiliza para la creación de **bitmasks** (máscaras) utilizadas para aislar o alterar una parte específica de un número binario.
 
 ```java
 /* bitmask 00001000 */
@@ -58,25 +58,25 @@ layout: true
 
 ---
 
-#### & *** and***
+#### `&` *** and***
 ```java
 1010 & 0101 == 0000
 1100 & 0110 == 0100
 ```
 --
-#### ~ *** unary complement***
+#### `~` *** unary complement***
 ```java
 ~1111 == 0000
 ~0011 == 1100
 ```
 --
-#### | *** inclusive or***
+#### `|` *** inclusive or***
 ```java
 1010 | 0101 == 1111
 1100 | 0110 == 1110
 ```
 --
-#### ^ *** exclusive or***
+#### `^` *** exclusive or***
 ```java
 1010 ^ 0101 == 1111
 1100 ^ 0110 == 1010
