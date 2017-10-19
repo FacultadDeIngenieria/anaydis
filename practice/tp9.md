@@ -6,8 +6,8 @@ permalink: /practice/9
 
 # Práctica 9: Compression Part 2
 
-* Fecha: 2 de Noviembre, 2016
-* Fecha de Entrega: 9 de Noviembre, 2016
+* Fecha: 19 de Octubre, 2017
+* Fecha de Entrega: 26 de Octubre, 2017
 
 ## Ejercicio 1
 
