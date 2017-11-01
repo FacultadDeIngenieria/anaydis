@@ -6,8 +6,8 @@ permalink: /practice/4bis
 
 # Práctica 4 Bis: Parallel Sorting
 
-* Fecha: 21 de Septiembre, 2016
-* Fecha de Entrega: 28 de Septiembre, 2016
+* Fecha: 2 de Noviembre, 2017
+* Fecha de Entrega: 28 de Noviembre, 2017
 
 ## Ejercicio 1
 
