@@ -360,7 +360,7 @@ Peor caso: orden descendente
 class Bubble extends AbstractSort {
     void sort(Comparable[] a) {
         int N = a.length;
-        for (int i = l; i < N-1; i++) {
+        for (int i = 0; i < N-1; i++) {
             for (int j = N-1; j > i; j--) {
                 compExch(a, j-1, j);
             }
