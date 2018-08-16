@@ -344,7 +344,7 @@ Peor caso: orden descendente
 
 # Bubble Sort
 
-* Ordena intercambiando elementos contiguos, al final de cada pasada cada elemento estará en su posición final. [Animación](http://www.youtube.com/watch?v=ddWtW1ceHDQ&feature=related)
+* Ordena intercambiando elementos contiguos, al final de cada pasada cada elemento estará en su posición final. [Animación](https://www.youtube.com/watch?v=yIQuKSwPlro)
 
 * Existen dos implementaciones posibles:
   * Los elementos se acumulan en el final de la lista a ordenar [Sample](http://www.cs.oswego.edu/~mohammad/classes/csc241/samples/sort/Sort2-E.html)
