@@ -6,8 +6,8 @@ permalink: /practice/5
 
 # Práctica 5: Searching
 
-* Fecha: 14 de Septiembre, 2017
-* Fecha de Entrega: 28 de Septiembre, 2017
+* Fecha: 13 de Septiembre, 2018
+* Fecha de Entrega: 20 de Septiembre, 2018
 
 ## Ejercicio 1
 
