@@ -6,19 +6,19 @@ permalink: /practice/7
 
 # Práctica 7: Immutability
 
-* Fecha: 05 de Octubre, 2017
-* Fecha de Entrega: 12 de Octubre, 2017
+* Fecha: 04 de Octubre, 2018
+* Fecha de Entrega: 11 de Octubre, 2018
 
 ## Ejercicio 1
 
-* Implementar una Linked List inmutable. 
+* Implementar una Linked List inmutable.
 * La clase deberá llamarse `anaydis.immutable.Node` e implementar la interfaz `anaydis.immutable.List` presente en las librerías.
 
 ## Ejercicio 2
 
 * Implementar una Banker’s Queue inmutable utilizando las Linked Lists definidas en el punto anterior.
 * La clase deberá llamarse `anaydis.immutable.BankersQueue` e implementar la interfaz `anaydis.immutable.Queue`presente en las librerías.
-* La clase `BankersQueue` deberá especificar un constructor publico que reciba como parámetro dos `(@NotNull List<T> in, @NotNull List<T> out)` lista immutables.
+* La clase `BankersQueue` deberá especificar un constructor publico que reciba como parámetro dos `(@NotNull List<T> in, @NotNull List<T> out)` listas immutables.
 
 ## Ejercicio 3
 

@@ -12,7 +12,7 @@
 5. [Search](search)  
 6. [Bits](bits)
 7. [Tries](tries)
-<!-- 8. [Immutable Collections](immutables) -->
+8. [Immutable Collections](immutables)
 <!-- 9. [Compresión](compresion) -->
 <!-- 10. [KDTrees](https://docs.google.com/presentation/d/1PRaMmgOBoi9FqL7niK6TClSKqtPhUb9a3XePVo2WH-I/edit#slide=id.g2680d7c9ef_0_0) -->
 <!-- 10. [Cryptography](https://docs.google.com/a/ing.austral.edu.ar/presentation/d/1UAU9YEm9NVGmVXYC1T2WYYG6PKFZ23wY7HGL77-XZCI/edit?usp=sharing) (Usar login de la facultad para verla) -->
@@ -26,7 +26,7 @@
 <!-- 4. [TP4Bis](practice/4bis) -->
 5. [TP5](practice/5)
 7. [TP6](practice/6)
-<!-- 8. [TP7](practice/7) -->
+8. [TP7](practice/7)
 <!-- 9. [TP8](practice/8) -->
 <!-- 10. [TP9](practice/9) -->
 

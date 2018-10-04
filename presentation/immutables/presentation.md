@@ -35,9 +35,9 @@ http://book.javanb.com/java-threads-3rd/jthreads3-CHP-2-SECT-1.html
 # Memory Sharing
 
 * Threads seem to be the same as programs.
-* The key difference is that the global memory is the entire Java heap: 
-  * threads can transparently share access between any object in the heap. 
-  * Each thread still has its own space for local variables (variables specific to the method the thread is executing). 
+* The key difference is that the global memory is the entire Java heap:
+  * threads can transparently share access between any object in the heap.
+  * Each thread still has its own space for local variables (variables specific to the method the thread is executing).
 * But objects are shared automatically and transparently.
 
 ---
@@ -46,8 +46,7 @@ http://book.javanb.com/java-threads-3rd/jthreads3-CHP-2-SECT-1.html
 
 * Immutable.
 * What we want…
-  * Comparable asymptotic performance
-  * to equivalent mutable structures...
+  * Comparable asymptotic performance to equivalent mutable structures...
 * Structural sharing
   * the main tool to achieve performance.
 
@@ -108,7 +107,7 @@ interface List<T> {
 ---
 
 # Usage
-    
+
 ```kotlin
 fun main(args : Array<String>) {
     val list = cons(3, cons(2, cons(1, nil())))
