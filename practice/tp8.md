@@ -6,8 +6,8 @@ permalink: /practice/8
 
 # Práctica 8: Compression Part 1
 
-* Fecha: 12 de Octubre, 2017
-* Fecha de Entrega: 19 de Octubre, 2017
+* Fecha: 11 de Octubre, 2018
+* Fecha de Entrega: 18 de Octubre, 2018
 
 ## Ejercicio 1
 
