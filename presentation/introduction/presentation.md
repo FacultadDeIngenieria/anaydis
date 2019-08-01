@@ -415,50 +415,6 @@ Por la regla de la suma, el O grande se obtiene de forma trivial.
 
 ---
 
-# Relaciones de recurrencia
-
-* Muchos algoritmos se basan el concepto de descomponer recursivamente un problema grande en problemas mas pequeños, que serán luego usados para resolver el problema original. Para analizar estos algoritmos y llevar soluciones a algunas fórmulas estandard utilizamos relaciones de recurrencia. 
-
-* 1) Relacion de recurrencia que surge de un programa que recorre la entrada eliminando los items de a uno.
-CN = CN-1 + N para N ≥ 2 y C1 = 1
-Este problema es de O(n2/2) dado que:
-CN = CN-1 + N
-= CN-2 + (N-1) + N
-= CN-3 + (N-2) + (N-1) + N = C1 + 2 + ... + (N-1)+N
-= N*(N+1)/2
-
-???
-
-Telescópica: x sustitución
-
----
-
-# Relaciones de recurrencia (2)
-
-* 2) Relacion que surge de un problema que va dividiendo paso a paso el problema en 2:
-CN = CN/2+ 1 para N ≥ 2 y C1 = 1
-N es divisible por 2 y asumimos que N = 2n , entonces:
-CN = C2^(n-1) + 1
-= C2^(n-2) + 1 + 1
-= C2^(n-3) + 3
-= C2^(0) + N = C1 + N
-= 1 + N = 1+ log N
-
-* 3) Relación que surge de un problema que divide la entrada pero debe procesar cada item de la misma.
-CN = CN/2+ N para N ≥ 2 y C1 = 1
-Asumimos que N = 2n entonces:
-CN = CN/2 + N
-= CN/4 + (N/2) + N
-= CN/8 + (N/4) + (N/2) + N =
-= 1+...+(N/4) + (N/2) + N = 2*N
-
-???
-
-Aclaración: Los resultados se prueban luego por inducción.
-N=2n → n = log N
-
----
-
 # Ejemplo: Búsqueda Secuencial
 
 * Operación de búsqueda: 
