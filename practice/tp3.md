@@ -6,8 +6,8 @@ permalink: /practice/3
 
 # Práctica 3: Shellsort y Quicksort
 
-* Fecha: 23 de Agosto, 2018
-* Fecha de Entrega: 6 de Septiembre, 2018
+* Fecha: 29 de Agosto, 2019
+* Fecha de Entrega: 5 de Septiembre, 2019
 
 ## Ejercicio 1
 
