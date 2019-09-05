@@ -6,8 +6,8 @@ permalink: /practice/4
 
 # Práctica 4: Quicksort y Mergesort
 
-* Fecha: 31 de Agosto, 2018
-* Fecha de Entrega: 6 de Septiembre, 2018 (QuickSort) & 13 de Septiembre, 2018 (MergeSort)
+* Fecha: 5 de Septiembre, 2019
+* Fecha de Entrega: 12 de Septiembre, 2019 (QuickSort) & 19 de Septiembre, 2019 (MergeSort)
 
 ## Ejercicio 1
 
