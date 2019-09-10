@@ -47,21 +47,6 @@ int[] merge(int[] a, int[] b) {
 
 ---
 
-# Merge Sort
-
-```java
-void sort(int[] array, int low, int high) {
-	if(low < high) {
-		int mid = (low + high) / 2;
-		sort(array, low, mid);
-		sort(array, mid + 1, high);
-		merge(array, low, mid, high);
-	}
-}
-```
-
----
-
 # Merge "In-Place"
 
 * ¿Por qué “In-Place”?
@@ -100,6 +85,27 @@ void merge(int[] array, int low, int middle, int high) {
 
 ---
 
+# Top-Down Merge Sort
+
+```java
+void sort(int[] array, int low, int high) {
+	if(low < high) {
+		int mid = (low + high) / 2;
+		sort(array, low, mid);
+		sort(array, mid + 1, high);
+		merge(array, low, mid, high);
+	}
+}
+```
+
+---
+
+# Top-Down
+
+.center[![]({{site.baseurl}}/presentation/mergesort/topdown.gif)]
+
+---
+
 # Bottom-Up Merge Sort
 
 * Recorrer el arreglo
@@ -125,18 +131,6 @@ void sort(int[] array, int low, int high) {
 	}
 }
 ```
-
----
-
-# Recorrido
-
-.center[![]({{site.baseurl}}/presentation/mergesort/recorrido.gif)]
-
----
-
-# Top-Down
-
-.center[![]({{site.baseurl}}/presentation/mergesort/topdown.gif)]
 
 ---
 
