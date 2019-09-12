@@ -152,7 +152,7 @@ void sort(int[] array, int low, int high) {
 Node merge(Node a, Node b) {
 	Node c, result = new Node();
 
-	for(c = result; a != null && b != null; c = c.next) {
+	for(result = c; a != null && b != null; c = c.next) {
 		if (a.value < b.value) {
 			c.next = a;
 			a = a.next;
@@ -165,6 +165,8 @@ Node merge(Node a, Node b) {
 	return result.next;
 }
 ```
+
+¿Y si usamos `c = result` en el inicio del for?
 
 ---
 
