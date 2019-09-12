@@ -166,7 +166,7 @@ Node merge(Node a, Node b) {
 }
 ```
 
-¿Y si usamos `c = result` en el inicio del for?
+- What if we use `c = result`  at the beginning of the `for` loop?
 
 ---
 
