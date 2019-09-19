@@ -311,17 +311,17 @@ private fun remove(node : Node<K, V>?, key: K): Node<K, V>? {
 # Rotaciones
 
 ```kotlin
-private fun rotateRight(node : Node<K, V>) : Node<K, V> {
-    val result = node.left!!
-    node.left = result.right
-    result.right = node
-    return result
-}
-
 private fun rotateLeft(node : Node<K, V>) : Node<K, V> {
     val result = node.right!!
     node.right = result.left
     result.left = node
+    return result
+}
+
+private fun rotateRight(node : Node<K, V>) : Node<K, V> {
+    val result = node.left!!
+    node.left = result.right
+    result.right = node
     return result
 }
 ```
