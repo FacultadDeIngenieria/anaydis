@@ -6,8 +6,8 @@ permalink: /practice/6
 
 # Práctica 6: Searching - Tries
 
-* Fecha: 20 de Septiembre, 2018
-* Fecha de Entrega: 4 de Octubre, 2018
+* Fecha: 26 de Septiembre, 2019
+* Fecha de Entrega: 10 de Octubre, 2019
 
 ## Ejercicio 1
 
