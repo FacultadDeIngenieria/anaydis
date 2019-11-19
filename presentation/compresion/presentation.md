@@ -359,6 +359,10 @@ Un codificador óptimo es aquel que utiliza el mínimo número de bits para codi
 * La salida contiene exactamente los mismos datos de la entrada pero en un orden diferente.
 * La transformación es reversible, con lo cual los datos originales pueden recuperarse sin pérdida de precisión.
 
+???
+
+https://marknelson.us/posts/1996/09/01/bwt.html
+
 ---
 
 # BTW - Ejemplo
@@ -418,6 +422,28 @@ Un codificador óptimo es aquel que utiliza el mínimo número de bits para codi
 * Para este caso el vector es { 1, 6, 4, 5, 0, 2, 3 }.
 
 .center[![]({{site.baseurl}}/presentation/compresion/bwt_04.png)]
+
+---
+
+# Decode
+
+```java
+int T[] = { 1, 6, 4, 5, 0, 2, 3 };
+char L[] = "OBRSDDB";
+int primary_index = 5;
+
+String decode()
+{
+    String cout= "";
+    int index = primary_index;
+    for ( int i = 0 ; i < 7 ; i++ ) {
+        cout += L[ index ];
+        index = T[ index ];
+    } 
+    return cout;
+}
+```
+
 
 ---
 
