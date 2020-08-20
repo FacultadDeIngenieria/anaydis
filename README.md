@@ -41,6 +41,8 @@
 
 ### Cátedra
 
+[Link para Meet de Consulta](https://meet.google.com/xxt-jmdy-xho)
+
 * Emilio López Gabeiras
 * Pedro Colunga: [pedro.colunga@ing.austral.edu.ar](mailto:pedro.colunga@ing.austral.edu.ar)
 * Lucas Luppani: [lucas.luppani@ing.austral.edu.ar](mailto:lucas.luppani@ing.austral.edu.ar)
