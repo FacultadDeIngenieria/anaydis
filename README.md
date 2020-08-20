@@ -45,3 +45,4 @@
 * Pedro Colunga: [pedro.colunga@ing.austral.edu.ar](mailto:pedro.colunga@ing.austral.edu.ar)
 * Lucas Luppani: [lucas.luppani@ing.austral.edu.ar](mailto:lucas.luppani@ing.austral.edu.ar)
 * Alvaro Gaita: [alvaro.gaita@ing.austral.edu.ar](mailto:alvaro.gaita@ing.austral.edu.ar)
+* Khalil Stessens: [khalil.stessens@ing.austral.edu.ar](mailto:khalil.stessens@ing.austral.edu.ar)
