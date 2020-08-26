@@ -6,8 +6,8 @@ permalink: /practice/2
 
 # Práctica 2: Algoritmos de Sorting Elementales
 
-* Fecha: 22 de Agosto, 2019
-* Fecha de Entrega: 29 de Agosto, 2019
+* Fecha: 27 de agosto, 2020
+* Fecha de Entrega: 3 de septiembre, 2020
 
 ## Ejercicio 1
 
