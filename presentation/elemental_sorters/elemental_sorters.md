@@ -391,8 +391,6 @@ static void bubble(ITEM[] a, int l, int r)
   * Comparaciones: ~N2/2
   * Intercambios: 0
 
-* Es adaptivo respecto de las comparaciones.
-
 * Se pueden hacer optimizaciones como por ejemplo dejar de iterar cuando no hubo cambios en la última iteración. Eso hace que el algoritmo sea adaptive respecto de las comparaciones.
 
 ---
