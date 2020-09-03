@@ -30,7 +30,7 @@ public class HSorter extends AbstractSorter
 	}
 	
 	public <T> void sort(Comparator<T> comparator, List<T> list){ 
-		sort(comparator, list, 11);
+		sort(comparator, list, 1);
 	} 
 
 	/**
