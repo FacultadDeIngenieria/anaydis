@@ -7,7 +7,7 @@
 
 1. [Introducción al Análisis de Algoritmos](introduction)
 2. [Algoritmos Elementales de Sorting](elemental_sorters)
-<!-- 3. [Quicksort](quicksort) -->
+3. [Quicksort](quicksort)
 <!-- 4. [Mergesort](mergesort) -->
 <!-- 5. [Search](search) -->
 <!-- 6. [Bits](bits) -->
@@ -22,7 +22,7 @@
 1. [TP1](practice/1)
 2. [TP2](practice/2)
 3. [TP3](practice/3)
-<!-- 4. [TP4](practice/4) -->
+4. [TP4](practice/4)
 <!-- 4. [TP4Bis](practice/4bis) -->
 <!-- 5. [TP5](practice/5) -->
 <!-- 7. [TP6](practice/6) -->
@@ -35,8 +35,7 @@
 ## Links
 
 1. [A Tale of Three Trees by Scott Chacon](https://www.infoq.com/presentations/A-Tale-of-Three-Trees/)
-
-<!-- 1. [Tail Recursion in Java, why not?](http://www.drdobbs.com/jvm/tail-call-optimization-and-java/240167044) -->
+2. [Tail Recursion in Java, why not?](http://www.drdobbs.com/jvm/tail-call-optimization-and-java/240167044)
 <!-- 2. [Implementing Persistent Vectors](http://www.codecommit.com/blog/scala/implementing-persistent-vectors-in-scala) -->
 <!-- 3. [macOS Sierra Debug Problem Fix](https://stackoverflow.com/questions/44680463/intellij-idea-debugger-is-too-slow-to-start-on-macos) -->
 <!-- 4. [Purely Functional Data Structures](https://www.cs.cmu.edu/~rwh/theses/okasaki.pdf) -->
