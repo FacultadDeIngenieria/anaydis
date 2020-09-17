@@ -8,7 +8,7 @@
 1. [Introducción al Análisis de Algoritmos](introduction)
 2. [Algoritmos Elementales de Sorting](elemental_sorters)
 3. [Quicksort](quicksort)
-<!-- 4. [Mergesort](mergesort) -->
+4. [Mergesort](mergesort)
 <!-- 5. [Search](search) -->
 <!-- 6. [Bits](bits) -->
 <!-- 7. [Tries](tries) -->
@@ -43,6 +43,11 @@
 ## Articles
 
 1. [The Yoda of Silicon Valley](https://www.nytimes.com/2018/12/17/science/donald-knuth-computers-algorithms-programming.html)
+
+## Parciales
+
+1. Primer parcial: 8 de octubre de 2020
+2. Segundo parcial: 12 de noviembre de 2020
 
 ## Cátedra
 
