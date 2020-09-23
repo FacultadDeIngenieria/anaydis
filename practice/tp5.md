@@ -6,8 +6,8 @@ permalink: /practice/5
 
 # Práctica 5: Searching
 
-* Fecha: 19 de Septiembre, 2019
-* Fecha de Entrega: 26 de Septiembre, 2019
+* Fecha: 23 de septiembre, 2020
+* Fecha de entrega: 1 de octubre, 2020
 
 ## Ejercicio 1
 
