@@ -10,8 +10,8 @@
 3. [Quicksort](quicksort)
 4. [Mergesort](mergesort)
 5. [Search](search)
-<!-- 6. [Bits](bits) -->
-<!-- 7. [Tries](tries) -->
+6. [Bits](bits)
+7. [Tries](tries)
 <!-- 8. [Immutable Collections](immutables) -->
 <!-- 9. [Compresión](compresion) -->
 <!-- 10. [KDTrees](https://docs.google.com/presentation/d/1PRaMmgOBoi9FqL7niK6TClSKqtPhUb9a3XePVo2WH-I/edit#slide=id.g2680d7c9ef_0_0) -->
