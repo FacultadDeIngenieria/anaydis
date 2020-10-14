@@ -7,7 +7,7 @@ permalink: /practice/6
 # Práctica 6: Searching - Tries
 
 * Fecha: 1 de octubre, 2020
-* Fecha de Entrega: 15 de octubre, 2020
+* Fecha de Entrega: 22 de octubre, 2020
 
 ## Ejercicio 1
 

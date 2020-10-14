@@ -6,8 +6,8 @@ permalink: /practice/7
 
 # Práctica 7: Immutability
 
-* Fecha: 10 de Octubre, 2019
-* Fecha de Entrega: 17 de Octubre, 2019
+* Fecha: 15 de octubre, 2020
+* Fecha de Entrega: 12 de octubre, 2020
 
 ## Ejercicio 1
 
