@@ -37,7 +37,7 @@ class: center, middle, inverse
 * Para caracteres:
   * Usar un prefijo (ej: 0xFF) (escape character)
   * AAAAAAABCCCCCCCCCDABBBBBBBBBBBBB 
-  * 0xFF 0x07 'A' 'B' 0xFF 0x09 'C' 'D' 0xFF 0x0D 'B’
+  * 0xFF 0x07 'A' 'B' 0xFF 0x09 'C' 'D' 'A' 0xFF 0x0D 'B’
 
 --
 
