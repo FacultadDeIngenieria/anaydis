@@ -58,6 +58,7 @@ class: center, middle, inverse
 ???
 
 B&W: en gral son imágenes con muchos ceros (sparse)
+6 bits extra para guardar el length del row
   
 ---
  
@@ -66,6 +67,10 @@ B&W: en gral son imágenes con muchos ceros (sparse)
 * RLE: (63 x 6) + 6 = 384 bits (63 6-bit run lengths)
 
 .center[![]({{site.baseurl}}/presentation/compresion/q_bits.png)]
+
+???
+
+6 bits extra para guardar el length del row
 
 ---
 
