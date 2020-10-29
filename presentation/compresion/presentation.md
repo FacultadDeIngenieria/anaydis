@@ -366,6 +366,7 @@ Un codificador óptimo es aquel que utiliza el mínimo número de bits para codi
 
 ???
 
+https://www.drdobbs.com/database/data-compression-with-the-burrows-wheele/184409957
 https://marknelson.us/posts/1996/09/01/bwt.html
 
 ---
