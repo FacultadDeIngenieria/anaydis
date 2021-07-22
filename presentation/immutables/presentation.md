@@ -6,6 +6,7 @@ class: center, middle, inverse
 
 # Agenda
 
+* Benefits
 * Threads
 * Immutable Linked List
 * Immutable Banker’s Queue
@@ -16,6 +17,29 @@ class: center, middle, inverse
 https://www.youtube.com/watch?v=pNhBQJN44YQ
 
 ---
+
+# Benefits of immutable objects
+
+* Thread safety
+* Atomicity of failure
+* Absence of hidden side-effects
+* Protection against null reference errors
+* Ease of caching
+* Prevention of identity mutation
+* Avoidance of temporal coupling between methods
+* Support for referential transparency
+* Protection from instantiating logically-invalid objects
+* Protection from inadvertent corruption of existing objects
+
+???
+
+[Failure atomicity](https://www.oreilly.com/library/view/functional-kotlin/9781788476485/b681f5f6-f276-4fb3-a3f4-fff67f96a5ab.xhtml)
+[Temporal Coupling](https://enterprisecraftsmanship.com/posts/temporal-coupling-and-immutability/)
+[Referential transparency](https://www.sitepoint.com/what-is-referential-transparency/#referentialtransparencyinprogramming)
+
+"It’s fair to say that we need justification not to use immutable objects in our solutions, rather than an affirmative reason to use them."
+
+___
 
 # Threads
 
