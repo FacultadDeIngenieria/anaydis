@@ -6,8 +6,8 @@ permalink: /practice/1
 
 # Práctica 1: Complejidad de Algoritmos
 
-* Fecha: 13 de Agosto, 2020
-* Fecha de Entrega: 20 de Agosto, 2020
+* Fecha: 5 de Agosto, 2021
+* Fecha de Entrega: 12 de Agosto, 2021
 
 ## Ejercicio 1
 
