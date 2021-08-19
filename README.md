@@ -47,12 +47,12 @@
 
 ## Parciales
 
-<!-- 1. Primer parcial: 8 de octubre de 2020 -->
+1. Primer parcial: 30 de septiembre de 2021
 <!-- 2. Segundo parcial: 12 de noviembre de 2020 -->
 
 ## Cátedra
 
-<!-- [Link para Meet de Consulta](https://meet.google.com/xxt-jmdy-xho) -->
+[Link para Meet de Consulta](https://meet.google.com/ecd-fyrx-jfg)
 
 * Emilio López Gabeiras
 * Pedro Colunga: [pedro.colunga@ing.austral.edu.ar](mailto:pedro.colunga@ing.austral.edu.ar)
