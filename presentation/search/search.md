@@ -134,7 +134,7 @@ private fun find(key: K, low: Int, high: Int): Int {
     val cmp = comparator.compare(key, keys[middle])
     return when {
         cmp == 0 -> middle
-        cmp < 0 -> find(key, 0, middle-1)
+        cmp < 0 -> find(key, low, middle-1)
         else -> find(key, middle+1, high)
     }
 }
