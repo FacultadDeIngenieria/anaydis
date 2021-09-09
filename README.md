@@ -9,7 +9,7 @@
 2. [Algoritmos Elementales de Sorting](elemental_sorters)
 3. [Quicksort](quicksort)
 4. [Mergesort](mergesort)
-<!-- 5. [Search](search) -->
+5. [Search](search)
 <!-- 6. [Bits](bits) -->
 <!-- 7. [Tries](tries) -->
 <!-- 8. [Immutable Collections](immutables) -->
@@ -24,12 +24,12 @@
 2. [TP2](practice/2)
 3. [TP3](practice/3)
 4. [TP4](practice/4)
-<!-- 4. [TP4Bis](practice/4bis) -->
-<!-- 5. [TP5](practice/5) -->
+5. [TP5](practice/5)
 <!-- 7. [TP6](practice/6) -->
 <!-- 8. [TP7](practice/7) -->
 <!-- 9. [TP8](practice/8) -->
 <!-- 10. [TP9](practice/9) -->
+<!-- 4. [TP4Bis](practice/4bis) -->
 
 <!-- * [Exercices](practice/exercices) -->
 
