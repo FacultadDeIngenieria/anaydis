@@ -10,8 +10,8 @@
 3. [Quicksort](quicksort)
 4. [Mergesort](mergesort)
 5. [Search](search)
-<!-- 6. [Bits](bits) -->
-<!-- 7. [Tries](tries) -->
+6. [Bits](bits)
+7. [Tries](tries)
 <!-- 8. [Immutable Collections](immutables) -->
 <!-- 9. [Compresión](compresion) -->
 <!-- 10. [String Searching](string_search) -->
@@ -25,7 +25,7 @@
 3. [TP3](practice/3)
 4. [TP4](practice/4)
 5. [TP5](practice/5)
-<!-- 7. [TP6](practice/6) -->
+7. [TP6](practice/6)
 <!-- 8. [TP7](practice/7) -->
 <!-- 9. [TP8](practice/8) -->
 <!-- 10. [TP9](practice/9) -->
