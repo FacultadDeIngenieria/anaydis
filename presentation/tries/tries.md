@@ -31,8 +31,8 @@ class RWayTrieMap<V:Any> : Map<String,V> {
     private var head: Node<V>? = null;
     private var size: Int = 0;
 
-    private class Node<V:Any>(var value: V,
-                                val next: Array<Node<V>?> = arrayOfNulls(256))
+    private class Node<V:Any>(var value: V?,
+                              val next: Array<Node<V>?> = arrayOfNulls(256))
 
     ...
 
@@ -71,11 +71,14 @@ override fun put(key: String, value: V) {
 private fun put(node: Node<V>?, key: String, value: V, level : Int): Node<V>? {
     return when {
         node == null -> {
-            val result = Node(value)
+            val result = Node(null)
             if (level < key.length) {
                 val next = key[level].toInt()
                 result.next[next] = put(result.next[next], key, value, level+1)
-            } else size++
+            } else {
+                result.value = value
+                size++
+            }
             result
         }
         level == key.length -> {
