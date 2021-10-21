@@ -28,7 +28,7 @@
 7. [TP6](practice/6)
 8. [TP7](practice/7)
 9. [TP8](practice/8)
-<!-- 10. [TP9](practice/9) -->
+10. [TP9](practice/9)
 <!-- 4. [TP4Bis](practice/4bis) -->
 
 <!-- * [Exercices](practice/exercices) -->
