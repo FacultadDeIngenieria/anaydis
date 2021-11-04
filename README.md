@@ -48,7 +48,7 @@
 ## Parciales
 
 1. Primer parcial: 30 de septiembre de 2021
-<!-- 2. Segundo parcial: 12 de noviembre de 2020 -->
+2. Segundo parcial: 11 de noviembre de 2021
 
 ## Cátedra
 
