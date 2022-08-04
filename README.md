@@ -46,8 +46,9 @@
 
 ## Parciales
 
-1. Primer parcial: 22 de septiembre de 2022
-2. Segundo parcial: 10 de noviembre de 2022
+1. [Examen Nivelador](https://forms.gle/C69Vex6gG9Hch7XG8) 
+2. Primer parcial: 22 de septiembre de 2022
+3. Segundo parcial: 10 de noviembre de 2022
 
 ## Cátedra
 
