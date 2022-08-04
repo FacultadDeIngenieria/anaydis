@@ -36,12 +36,14 @@ for (int i = 0; i < n; ++i)
   * Utilizar las convenciones establecidas en la práctica.
   * Lo más importante es hallar el orden correcto, no el valor preciso de la cantidad de ciclos de ejecución.
 
+<!--
 ## Ejercicio 2
 
 1. Sea la función f(n) = 3n2 – n + 4 . Utilizando la definición, muestre que f(n) = O(n2)
 2. Sean f(n) = 3n2 – n + 4 y g(n) = n log n + 5 . Utilizando los teoremas relacionados con la notación O-Grande, muestre que f(n) + g(n) = O(n2).
+-->
 
-## Ejercicio 3
+## Ejercicio 2
 
 Para cada una de las siguientes funciones, determine el valor que computan (expresar el valor en función de n) y encuentre una expresión ajustada del orden de complejidad para el peor caso. Justifique brevemente.
 
