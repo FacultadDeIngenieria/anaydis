@@ -50,6 +50,10 @@
 2. Primer parcial: 22 de septiembre de 2022
 3. Segundo parcial: 10 de noviembre de 2022
 
+## Alumnos
+
+1. [Spreadsheet](https://docs.google.com/spreadsheets/d/1fbBcsMlo_-jrtR63DZ4yoNSHmgeZzuc3L9CcDX2SOSc/edit?usp=sharing)
+
 ## Cátedra
 
 [Link para Meet de Consulta Martes de 17.30 a 18.30](https://meet.google.com/ecd-fyrx-jfg)
