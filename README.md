@@ -30,7 +30,7 @@
 <!-- 10. [TP9](practice/9) -->
 <!-- 4. [TP4Bis](practice/4bis) -->
 
-<!-- * [Exercices](practice/exercices) -->
+<!-- * [Exercices](practice/exerasdasdcices) -->
 
 ## Links
 
