@@ -6,8 +6,8 @@ permalink: /practice/4
 
 # Práctica 4: Quicksort y Mergesort
 
-* Fecha: 1 de Septiembre, 2021
-* Fecha de Entrega: 8 de Septiembre, 2021 (MergeSort)
+* Fecha: 1 de Septiembre, 2022
+* Fecha de Entrega: 8 de Septiembre, 2022 (MergeSort)
 
 ## Ejercicio 1
 

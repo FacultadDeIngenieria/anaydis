@@ -60,7 +60,7 @@
 
 ## Cátedra
 
-[Link para Meet de Consulta Martes de 17.30 a 18.30](https://meet.google.com/ecd-fyrx-jfg)
+[Link de Discord para consulta martes de 17.30 a 18.30](https://discord.gg/qKMJTMqGt3)
 
 * Emilio López Gabeiras
 * Pedro Colunga: [pedro.colunga@ing.austral.edu.ar](mailto:pedro.colunga@ing.austral.edu.ar)

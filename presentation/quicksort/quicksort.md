@@ -376,7 +376,7 @@ When there are many duplicate keys present in the file to be sorted, the quickso
 
 .center[![]({{site.baseurl}}/presentation/quicksort/3-way2.jpg)]
 
-* http://www.mathcs.emory.edu/~cheung/Courses/171/Syllabus/08-Sort/quick-sort.html
+* https://web.archive.org/web/20121105224102/http://www.mathcs.emory.edu:80/~cheung/Courses/171/Syllabus/08-Sort/quick-sort.html
 
 ---
 
