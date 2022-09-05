@@ -8,7 +8,7 @@
 2. [Algoritmos Elementales de Sorting](elemental_sorters)
 3. [Quicksort](quicksort)
 4. [Mergesort](mergesort)
-<!-- 5. [Search](search) -->
+5. [Search](search)
 <!-- 6. [Bits](bits) -->
 <!-- 7. [Tries](tries) -->
 <!-- 8. [Immutable Collections](immutables) -->
