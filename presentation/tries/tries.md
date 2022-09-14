@@ -13,6 +13,129 @@ class: center, middle, inverse
 
 ---
 
+# Binary Trie
+
+* Bifurcación en función de los bits de la clave
+* No guardo nada en los nodos intermedios
+* Solo hay claves y datos en las hojas
+
+---
+
+# Binary Trie
+
+.center[![]({{site.baseurl}}/presentation/tries/btrie.png)]
+
+---
+
+# Binary Trie
+
+```kotlin
+/**
+ * Binary Trie Map implementation
+ */
+class BinaryTrieMap<V:Any> : Map<String,V> {
+
+    private var head: Node<V>? = null
+    private var size = 0
+
+    private class Node<V>(val key: String, var value: V? = null,
+                          var left: Node<V>? = null,
+                          var right: Node<V>? = null) {
+        fun isLeaf(): Boolean = left == null && right == null
+    }
+
+    ...
+
+}
+```
+
+---
+
+# Binary Trie
+
+```kotlin
+override operator fun get(key: String): V? {
+    val node = find(head, key, 0)
+    return node?.value
+}
+
+override fun contains(key: String) = find(head, key, 0) != null
+
+/**
+ * This code assumes that the keys are distinct and (if the keys may be
+ * of different length) that no key is prefix of another.
+ */
+private fun find(node: Node<V>?, key: String, level: Int): Node<V>? {
+    if (node == null) return null
+    if (node.isLeaf()) return if (key == node.key) node else null
+    return find(if (bitAt(key, level)) node.right else node.left, key, level + 1)
+}
+```
+
+---
+
+# Binary Trie
+
+```kotlin
+override fun put(key: String, value: V) {
+    head = put(head, Node(key, value), 0)
+}
+
+private fun put(node: Node<V>?, value: Node<V>, level: Int): Node<V>? {
+    return when {
+        node == null -> {
+            size++
+            return value
+        }
+        node.isLeaf() -> when {
+            node.key == value.key -> {
+                node.value = value.value // Override key-matching previous node with updated value
+                node
+            }
+            else -> split(value, node, level)
+        }
+        else -> {
+            if (bitAt(value.key, level)) node.right = put(node.right, value, level + 1)
+            else node.left = put(node.left, value, level + 1)
+            size++
+            node
+        }
+    }
+}
+```
+
+---
+
+# Binary Trie
+
+```kotlin
+private fun split(a: Node<V>, b: Node<V>, level: Int): Node<V> {
+    val result = Node<V>("")
+
+    when (bitAt(a.key, level).toInt() * 2 + bitAt(b.key, level).toInt()) {
+        0 -> result.left = split(a, b, level + 1)
+        3 -> result.right = split(a, b, level + 1)
+        1 -> {
+            result.left = a
+            result.right = b
+        }
+        2 -> {
+            result.left = b
+            result.right = a
+        }
+    }
+    return result
+}
+
+private fun bitAt(s: String, nth: Int): Boolean {
+    val pos = nth / 8
+    return pos < s.length && (s[pos].toInt() shr (nth % 8) and 1) != 0
+}
+```
+
+---
+
+
 # R-Way Trie
 
 .center[![]({{site.baseurl}}/presentation/tries/rway.png)]
@@ -212,125 +335,3 @@ private fun put(node: Node<V>?, key: String, value: V, level: Int): Node<V> {
 * Ocupación de memoria proporcional a la cantidad de Items
 * Las claves estan ordenadas ☞ Se puede hacer búsqueda por rangos
 * Se pueden implementar búsquedas parciales ☞ "p..e" (pepe, pide, pose, ...)
-
----
-
-# Binary Trie
-
-* Bifurcación en función de los bits de la clave
-* No guardo nada en los nodos intermedios
-* Solo hay claves y datos en las hojas
-
----
-
-# Binary Trie
-
-.center[![]({{site.baseurl}}/presentation/tries/btrie.png)]
-
----
-
-# Binary Trie
-
-```kotlin
-/**
- * Binary Trie Map implementation
- */
-class BinaryTrieMap<V:Any> : Map<String,V> {
-
-    private var head: Node<V>? = null
-    private var size = 0
-
-    private class Node<V>(val key: String, var value: V? = null,
-                          var left: Node<V>? = null,
-                          var right: Node<V>? = null) {
-        fun isLeaf(): Boolean = left == null && right == null
-    }
-
-    ...
-
-}
-```
-
----
-
-# Binary Trie
-
-```kotlin
-override operator fun get(key: String): V? {
-    val node = find(head, key, 0)
-    return node?.value
-}
-
-override fun contains(key: String) = find(head, key, 0) != null
-
-/**
- * This code assumes that the keys are distinct and (if the keys may be
- * of different length) that no key is prefix of another.
- */
-private fun find(node: Node<V>?, key: String, level: Int): Node<V>? {
-    if (node == null) return null
-    if (node.isLeaf()) return if (key == node.key) node else null
-    return find(if (bitAt(key, level)) node.right else node.left, key, level + 1)
-}
-```
-
----
-
-# Binary Trie
-
-```kotlin
-override fun put(key: String, value: V) {
-    head = put(head, Node(key, value), 0)
-}
-
-private fun put(node: Node<V>?, value: Node<V>, level: Int): Node<V>? {
-    return when {
-        node == null -> {
-            size++
-            return value
-        }
-        node.isLeaf() -> when {
-            node.key == value.key -> {
-                node.value = value.value // Override key-matching previous node with updated value
-                node
-            }
-            else -> split(value, node, level)
-        }
-        else -> {
-            if (bitAt(value.key, level)) node.right = put(node.right, value, level + 1)
-            else node.left = put(node.left, value, level + 1)
-            size++
-            node
-        }
-    }
-}
-```
-
----
-
-# Binary Trie
-
-```kotlin
-private fun split(a: Node<V>, b: Node<V>, level: Int): Node<V> {
-    val result = Node<V>("")
-
-    when (bitAt(a.key, level).toInt() * 2 + bitAt(b.key, level).toInt()) {
-        0 -> result.left = split(a, b, level + 1)
-        3 -> result.right = split(a, b, level + 1)
-        1 -> {
-            result.left = a
-            result.right = b
-        }
-        2 -> {
-            result.left = b
-            result.right = a
-        }
-    }
-    return result
-}
-
-private fun bitAt(s: String, nth: Int): Boolean {
-    val pos = nth / 8
-    return pos < s.length && (s[pos].toInt() shr (nth % 8) and 1) != 0
-}
-```
