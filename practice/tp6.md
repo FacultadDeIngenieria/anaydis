@@ -6,8 +6,8 @@ permalink: /practice/6
 
 # Práctica 6: Searching - Tries
 
-* Fecha: 16 de septiembre, 2021
-* Fecha de Entrega: 23 de septiembre, 2021
+* Fecha: 15 de septiembre, 2022
+* Fecha de Entrega: 29 de septiembre, 2022
 
 ## Ejercicio 1
 
