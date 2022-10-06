@@ -6,8 +6,8 @@ permalink: /practice/8
 
 # Práctica 8: Compression Part 1
 
-* Fecha: 14 de Octubre, 2021
-* Fecha de Entrega: 21 de Octubre, 2021
+* Fecha: 06 de Octubre, 2022
+* Fecha de Entrega: 13 de Octubre, 2022
 
 ## Ejercicio 1
 
