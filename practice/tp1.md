@@ -4,78 +4,65 @@ layout: practice
 permalink: /practice/1
 ---
 
-# Práctica 1: Complejidad de Algoritmos
+# Práctica 1: Algoritmos de Sorting Elementales
 
-* Fecha: 4 de Agosto, 2022
-* Fecha de Entrega: 11 de Agosto, 2022
+* Fecha: 3 de agosto, 2023
+* Fecha de Entrega: 10 de agosto, 2023
 
 ## Ejercicio 1
 
-Realizar un análisis de tiempo de ejecución T(n) y un análisis asintótico O(n) para los siguientes algoritmos:
-
-```java
-for (int i = 0; i < n; ++i) 
-	++k
-
-
-for (int i = 1; i < n; i *= 2)
-	++k;
-
-
-for (int i = 0; i < n; ++i)
- 	for (int j = 0; j < n; ++j)        
- 		++k;
-
-
-for (int i = 0; i < n; ++i)
-	for (int j = 0; j < i * i; ++j)
-		++k;
-```
-
-* Aclaraciones:
-  * Utilizar las convenciones establecidas en la práctica.
-  * Lo más importante es hallar el orden correcto, no el valor preciso de la cantidad de ciclos de ejecución.
-
-<!--
-## Ejercicio 2
-
-1. Sea la función f(n) = 3n2 – n + 4 . Utilizando la definición, muestre que f(n) = O(n2)
-2. Sean f(n) = 3n2 – n + 4 y g(n) = n log n + 5 . Utilizando los teoremas relacionados con la notación O-Grande, muestre que f(n) + g(n) = O(n2).
--->
+Desarrollar los algoritmos BubbleSorter, SelectionSorter e InsertionSorter implementando la interfaz Sorter que se encuentra en las librerías de la materia.
 
 ## Ejercicio 2
 
-Para cada una de las siguientes funciones, determine el valor que computan (expresar el valor en función de n) y encuentre una expresión ajustada del orden de complejidad para el peor caso. Justifique brevemente.
+Ejecutar pruebas sobre los algoritmos implementados para los casos mejor, peor y promedio. 
+Graficar los resultados de cada algoritmo para cada caso comparándolos. 
+Comparar los resultados con los órdenes y tiempos de ejecución calculados teóricamente.
+Presentar un informe con los resultados, gráficos y el análisis de los mismos.
+Para cada escenario y algoritmo, obtener data points para N = {10, 50, 500, 1000, 5000}.
 
-* a)
+## Ejercicio 3
+
+Desarrollar un programa que utilice alguno de los algoritmos implementados para ordenar una lista de objetos del tipo:
 
 ```java
-static int f (int n)
-{
-	int sum = 0;
-	for (int i = 1; i <= n; ++i)
-	    sum = sum + i;
-	return sum;
+public class FullName {
+	private String firstname;
+	private String lastname;
+	public String getFirstname() {
+		return firstname;
+	}
+	public String getLastname() {
+		return lastname;
+	}
 }
 ```
 
-* b)
+La lista debe ser ordenada dos veces, la primera por apellido y la segunda por nombre. 
+Ejemplo:
 
-```java
-static int g (int n)
-{
-	int sum = 0;
-	for (int i = 1; i <= n; ++i)
-	    sum = sum + i + f (i);
-	return sum;
-}
-```
+Lista sin ordenar:
 
-* c)
+* Alonso, Paula
+* Diaz, Diego
+* Alonso, Diego
 
-```java
-static int h (int n)
-{ 
-	return f (n) + g (n); 
-}
-```
+Lista ordenanda:
+
+* Alonso, Diego
+* Alonso, Paula
+* Diaz, Diego
+
+Sólo un algoritmo debe utilizarse. Elegir uno y justificar por qué se eligió ese.
+
+## NOTAS
+
+Para el Ejercicio 2, deben implementarse las interfaces del jar, las cuales le servirán para desarrollar el programa necesario para generar los resultados del benchmark.
+Las interfaces a implementar son:
+SorterListener / ObservableSorter
+DataSetGenerator
+SorterProvider
+
+IMPORTANTE:
+No modificar los sources del jar entregado.
+No extraer los sources para desarrollar el programa, debe utilizar el jar como librería.
