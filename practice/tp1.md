@@ -11,7 +11,7 @@ permalink: /practice/1
 
 ## Ejercicio 1
 
-Desarrollar los algoritmos BubbleSorter, SelectionSorter e InsertionSorter implementando la interfaz Sorter que se encuentra en las librerías de la materia.
+Desarrollar los algoritmos BubbleSorter, SelectionSorter e InsertionSorter implementando la interfaz [Sorter](resources/Sorter.java) que se encuentra en las librerías de la materia.
 
 ## Ejercicio 2
 
