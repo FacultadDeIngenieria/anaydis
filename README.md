@@ -32,11 +32,10 @@
 ## Reglas para las prácticas
 1. Todas las prácticas deben ser entregadas en su fecha de entrega, la cual se informa con la presentación del TP.
 2. Si al dia siguiente de la entrega de práctica (viernes) el TeamCity esta en rojo, se considera práctica desaprobada (incluso pasando a verde luego de la fecha de corte).
-3. La última instancia para aprobar las prácticas es en la última instancia de recuperación (fecha de primer final).
-4. La última fecha de recuperación para ponerse en verde en TeamCity es la fecha de primer final. 
-5. De no tener todas las prácticas aprobadas en TeamCity para la fecha de primer final, no se permite rendir recuperatorio y se recursa la materia.
-6. Los TPs son individuales y se evaluará automáticamete si hubo algua copia. De encotrarse, se considerará plagio y se penalizará a los alumnos involucrados.
-7. Como resultado de las prácticas se calculará una nota de práctica que será parte de la nota de cursada.
+3. La última instancia para aprobar las prácticas es en la última instancia de recuperación (fecha de primer final). 
+4. De no tener todas las prácticas aprobadas en TeamCity para la fecha de primer final, no se permite rendir recuperatorio y se recursa la materia.
+5. Los TPs son individuales y se evaluará automáticamente si hubo algua copia. De encontrarse, se considerará plagio y se penalizará a los alumnos involucrados.
+6. Como resultado de las prácticas se calculará una nota de práctica que será parte de la nota de cursada.
 
 <!-- * [Exercices](practice/exercices) -->
 
