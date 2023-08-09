@@ -5,7 +5,7 @@
 ## Presentaciones
 
 1. [Algoritmos Elementales de Sorting](elemental_sorters)
-<!-- 1. [Quicksort](quicksort) -->
+1. [Quicksort](quicksort)
 <!-- 1. [Mergesort](mergesort) -->
 <!-- 1. [Search](search) -->
 <!-- 1. [Bits](bits) -->
@@ -19,7 +19,7 @@
 ## Trabajos Prácticos
 
 2. [TP1](practice/1)
-<!-- 3. [TP3](practice/3) -->
+3. [TP2](practice/2)
 <!-- 4. [TP4](practice/4) -->
 <!-- 5. [TP5](practice/5) -->
 <!-- 7. [TP6](practice/6) -->

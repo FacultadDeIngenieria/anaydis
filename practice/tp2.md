@@ -1,13 +1,13 @@
 ---
-title: Práctica 3
+title: Práctica 2
 layout: practice
-permalink: /practice/3
+permalink: /practice/2
 ---
 
-# Práctica 3: Shellsort y Quicksort
+# Práctica 2: Shellsort y Quicksort
 
-* Fecha: 25 de agosto, 2022
-* Fecha de Entrega: 1 de septiembre, 2022
+* Fecha: 10 de agosto, 2023
+* Fecha de Entrega: 17 de agosto, 2023
 
 ## Ejercicio 1
 
