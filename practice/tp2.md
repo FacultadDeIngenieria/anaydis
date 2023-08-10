@@ -48,7 +48,7 @@ public class HSorter extends AbstractSorter
 ## Ejercicio 3
 
 Desarrollar un programa que sirva para comparar secuencias de incrementos de h para Shellsort. 
-Realizar un informe similar al de la Práctica 2, sobre la performance de shellsort para distintas secuencias de incrementos.
+Realizar un informe similar al de la Práctica 1, sobre la performance de shellsort para distintas secuencias de incrementos.
 Los gráficos deben mostrar cantidad de comparaciones y running-time en función de N. 
 Utilizar sets de datos ordenados al azar para cada tamaño N.
 Realizar las pruebas para N = {100, 1000, 10000}.
