@@ -39,9 +39,9 @@
 
 <!-- * [Exercices](practice/exercices) -->
 
-<!-- ## Links -->
+## Links
 
-<!-- 2. [Tail Recursion in Java, why not?](http://web.archive.org/web/20140422180613/https://www.drdobbs.com/jvm/tail-call-optimization-and-java/240167044) -->
+1. [Tail Recursion in Java, why not?](http://web.archive.org/web/20140422180613/https://www.drdobbs.com/jvm/tail-call-optimization-and-java/240167044)
 <!-- 2. [Implementing Persistent Vectors](http://www.codecommit.com/blog/scala/implementing-persistent-vectors-in-scala) -->
 <!-- 3. [macOS Sierra Debug Problem Fix](https://stackoverflow.com/questions/44680463/intellij-idea-debugger-is-too-slow-to-start-on-macos) -->
 <!-- 4. [Purely Functional Data Structures](https://www.cs.cmu.edu/~rwh/theses/okasaki.pdf) -->
@@ -62,7 +62,7 @@
 
 ## Cátedra
 
-<!-- [Link de Discord para consulta martes de 17.30 a 18.30](https://discord.gg/qKMJTMqGt3) -->
+[Link de Discord para consulta](https://discord.gg/qKMJTMqGt3)
 
 * Emilio López Gabeiras
 * Pedro Colunga: [pedro.colunga@ing.austral.edu.ar](mailto:pedro.colunga@ing.austral.edu.ar)
