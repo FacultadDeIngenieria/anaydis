@@ -6,7 +6,7 @@
 
 1. [Algoritmos Elementales de Sorting](elemental_sorters)
 1. [Quicksort](quicksort)
-<!-- 1. [Mergesort](mergesort) -->
+1. [Mergesort](mergesort)
 <!-- 1. [Search](search) -->
 <!-- 1. [Bits](bits) -->
 <!-- 1. [Tries](tries) -->
@@ -20,7 +20,7 @@
 
 2. [TP1](practice/1)
 3. [TP2](practice/2)
-<!-- 4. [TP3](practice/3) -->
+4. [TP3](practice/3)
 <!-- 5. [TP5](practice/5) -->
 <!-- 7. [TP6](practice/6) -->
 <!-- 8. [TP7](practice/7) -->
