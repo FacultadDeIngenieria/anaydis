@@ -1,13 +1,13 @@
 ---
-title: Práctica 4
+title: Práctica 3
 layout: practice
-permalink: /practice/4
+permalink: /practice/3
 ---
 
-# Práctica 4: Quicksort y Mergesort
+# Práctica 3: Quicksort y Mergesort
 
-* Fecha: 1 de Septiembre, 2022
-* Fecha de Entrega: 8 de Septiembre, 2022 (MergeSort)
+* Fecha: 17 de Agosto, 2023
+* Fecha de Entrega: 24 de Agosto, 2023
 
 ## Ejercicio 1
 
