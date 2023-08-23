@@ -11,13 +11,11 @@ permalink: /practice/4
 
 ## Ejercicio 1
 
-En las librerías se encuentra una interfaz anaydis.search.Map (Es un subset modificado de la interfaz java.util.Map).
+Usando la interfaz anaydis.search.Map (subset modificado de la interfaz java.util.Map) utilizada en la práctica pasada debe implementar, respetando la documentación, la interfaz Map con la siguiente estructura subyacente:
 
-Este ADT representa lo que se conoce como “Diccionario” y en particular no soporta claves duplicadas ni nulas.
-Debe implementar, respetando la documentación, la interfaz Map con las siguientes estructuras subyacentes:
-
-* ArrayMap: utilizando listas con búsqueda binaria.
-* RandomizedTreeMap: utilizando un árbol probabilístico.
+- RWayTrieMap (usando R-Way Trie internamente)
+- TSTTrieMap (usando TST Trie)
+- BinaryTrieMap (usando Binary Trie)
 
 ## Ejercicio 2
 

@@ -15,7 +15,7 @@ permalink: /practice/2
 2. ¿Es quicksort estable? Justificar y dar un ejemplo.
 3. La siguiente secuencia muestra el proceso de particionamiento para un array ordenado al azar. Explique el gráfico y qué sucede. ¿Por qué queda así en la última escena de la secuencia?
 
-![]({{site.baseurl}}/practice/tp3_1.jpg)
+![]({{site.baseurl}}/practice/tp2_1.jpg)
 
 ## Ejercicio 2
 
