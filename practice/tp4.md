@@ -1,13 +1,13 @@
 ---
-title: Práctica 5
+title: Práctica 4
 layout: practice
-permalink: /practice/5
+permalink: /practice/4
 ---
 
-# Práctica 5: Searching
+# Práctica 4: Searching
 
-* Fecha: 8 de septiembre, 2022
-* Fecha de entrega: 15 de septiembre, 2022
+* Fecha: 24 de agosto, 2023
+* Fecha de entrega: 31 de agosto, 2023
 
 ## Ejercicio 1
 
