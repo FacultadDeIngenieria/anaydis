@@ -7,7 +7,7 @@ permalink: /practice/3
 # Práctica 3: Quicksort y Mergesort
 
 * Fecha: 17 de Agosto, 2023
-* Fecha de Entrega: 24 de Agosto, 2023
+* Fecha de Entrega: 31 de Agosto, 2023
 
 ## Ejercicio 1
 
