@@ -13,9 +13,9 @@ permalink: /practice/4
 
 Usando la interfaz anaydis.search.Map (subset modificado de la interfaz java.util.Map) debe implementar, respetando la documentación, la interfaz Map con la siguiente estructura subyacente:
 
-- RWayTrieMap (usando R-Way Trie internamente)
-- TSTTrieMap (usando TST Trie)
-- BinaryTrieMap (usando Binary Trie)
+- anaydis.search.RWayTrieMap (usando R-Way Trie internamente)
+- anaydis.search.TSTTrieMap (usando TST Trie)
+- anaydis.search.BinaryTrieMap (usando Binary Trie)
 
 ## Ejercicio 2
 
