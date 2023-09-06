@@ -4,7 +4,7 @@ layout: practice
 permalink: /practice/5
 ---
 
-# Práctica 5: Searching
+# Práctica 5: Priority Queues
 
 * Fecha: 7 de septiembre 2023
 * Fecha de entrega: 28 de septiembre 2023
