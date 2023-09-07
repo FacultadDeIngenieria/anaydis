@@ -284,3 +284,15 @@ class HeapPriorityQueue<K>(max: Int, private val comparator: Comparator<K>) : Pr
     ...
 }
 ```
+
+---
+
+# Final considerations
+
+* **Multiway heaps.** It is not difficult to modify our code to build heaps based on an array representation of complete heap-ordered ternary or d-ary trees
+	* There is a tradeoff between the lower cost from the reduced tree height and the higher cost of finding the largest of the three or d children at each node
+* **Array resizing.** We can add a no-argument constructor, code for array doubling in **insert()**, and code for array halving in **delMax()**
+	* Just as we did for stacks
+	* The logarithmic time bounds are amortized when the size of the priority queue is arbitrary and the arrays are resized
+* **Immutability of keys.** The priority queue contains objects that are created by clients but assumes that the client code does not change the keys
+	* More on immutablity next lesson
