@@ -269,8 +269,8 @@ class HeapPriorityQueue<K>(max: Int, private val comparator: Comparator<K>) : Pr
         if (isEmpty()) throw NoSuchElementException("Empty priority queue!")
         val result = keys[1]
         exch(1, size--)
-        sink(1)
         keys[size+1] = null; // Avoid loitering and help garbage collector
+        sink(1)
         return result!!
     }
 
