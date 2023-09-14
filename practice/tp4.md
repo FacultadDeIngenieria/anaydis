@@ -7,7 +7,7 @@ permalink: /practice/4
 # Práctica 4: Searching
 
 * Fecha: 24 de agosto, 2023
-* Fecha de entrega: 7 de septiembre, 2023
+* Fecha de entrega: 15 de septiembre, 2023
 
 ## Ejercicio 1
 
