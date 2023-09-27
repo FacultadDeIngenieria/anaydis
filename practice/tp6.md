@@ -1,13 +1,13 @@
 ---
-title: Práctica 7
+title: Práctica 6
 layout: practice
-permalink: /practice/7
+permalink: /practice/6
 ---
 
-# Práctica 7: Immutability
+# Práctica 6: Immutability
 
-* Fecha: 20 de septiembre, 2022
-* Fecha de Entrega: 6 de octubre, 2022
+* Fecha: 28 de septiembre, 2023
+* Fecha de Entrega: 5 de octubre, 2023
 
 ## Ejercicio 1
 
