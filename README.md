@@ -11,7 +11,7 @@
 1. [Bits](bits)
 1. [Tries](tries)
 1. [Priority Queues](priority_queues)
-<!-- 1. [Immutable Collections](immutables) -->
+1. [Immutable Collections](immutables)
 <!-- 1. [Compresión](compresion) -->
 <!-- 1. [String Searching](string_search) -->
 <!-- 10. [KDTrees](https://docs.google.com/presentation/d/1PRaMmgOBoi9FqL7niK6TClSKqtPhUb9a3XePVo2WH-I/edit#slide=id.g2680d7c9ef_0_0) -->
@@ -24,7 +24,7 @@
 4. [TP3](practice/3)
 5. [TP4](practice/4)
 5. [TP5](practice/5)
-<!-- 6. [TP6](practice/6) -->
+6. [TP6](practice/6)
 <!-- 8. [TP7](practice/7) -->
 <!-- 9. [TP8](practice/8) -->
 <!-- 10. [TP9](practice/9) -->
