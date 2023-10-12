@@ -1,13 +1,13 @@
 ---
-title: Práctica 9
+title: Práctica 8
 layout: practice
-permalink: /practice/9
+permalink: /practice/8
 ---
 
-# Práctica 9: Compression Part 2
+# Práctica 8: Compression Part 2
 
-* Fecha: 13 de octubre, 2022
-* Fecha de Entrega: 20 de octubre, 2022
+* Fecha: 12 de octubre, 2023
+* Fecha de Entrega: 19 de octubre, 2023
 
 ## Ejercicio 1
 
