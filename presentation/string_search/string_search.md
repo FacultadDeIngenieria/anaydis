@@ -29,7 +29,7 @@ class: center, middle, inverse
 
 --
 
-Encontrar **'avoctdfytvv'** en 
+Encontrar **'avoctdfytvv'** en
 
 kvjlixapejrbxeenpphkhthbkwyrwamnugzhppfxiyjyanhapfwbghx mshrlyujfjhrsovkvveylnbxnawavgizyvmfohigeabgksfnbkmffxj
 ffqbualeytqrphyrbjqdjqavctgxjifqgfgydhoiwhrvwqbxgrixydz
@@ -215,16 +215,68 @@ layout: true
 
 ---
 
+## Skip table
+
+Ejemplo: **people**
+
+.center[![]({{site.baseurl}}/presentation/string_search/bm_skip_table.png)]
+
+---
+
 layout: false
 
 .center[![]({{site.baseurl}}/presentation/string_search/bm.png)]
 
 ---
 
+layout: true
+
 # Boyer Moore
 
-## Skip table
+---
 
-Ejemplo: **people**
+## Heurísticas
 
-.center[![]({{site.baseurl}}/presentation/string_search/bm_skip_table.png)]
+* Bad Character
+* Good Suffix
+
+---
+
+## Bad Character Heuristic
+
+### Case 1 – Mismatch become match
+
+.center[![]({{site.baseurl}}/presentation/string_search/bad-character-case-1.png)]
+
+---
+
+## Bad Character Heuristic
+
+### Case 2 – Pattern move past the mismatch character
+
+.center[![]({{site.baseurl}}/presentation/string_search/bad-character-case-2.png)]
+
+---
+
+## Good Suffix Heuristic
+
+### Case 1: Another occurrence of t in P matched with t in T
+
+.center[![]({{site.baseurl}}/presentation/string_search/good-suffix-case-1.png)]
+
+---
+
+## Good Suffix Heuristic
+
+### Case 2: A prefix of P, which matches with suffix of t in T
+
+.center[![]({{site.baseurl}}/presentation/string_search/good-suffix-case-2.png)]
+
+---
+
+## Good Suffix Heuristic
+
+### Case 3: No other occurrence and no prefix
+
+.center[![]({{site.baseurl}}/presentation/string_search/good-suffix-case-3.png)]
+
