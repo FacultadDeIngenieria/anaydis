@@ -1,13 +1,13 @@
 ---
-title: Práctica 10
+title: Práctica 9
 layout: practice
-permalink: /practice/10
+permalink: /practice/9
 ---
 
-# Práctica 10: String Searching
+# Práctica 9: String Searching
 
-* Fecha: 20 de octubre, 2022
-* Fecha de Entrega: 27 de octubre, 2022
+* Fecha: 19 de octubre, 2023
+* Fecha de Entrega: 26 de octubre, 2023
 
 ## Ejercicio 1
 
