@@ -21,6 +21,8 @@ Comparar los resultados con los órdenes y tiempos de ejecución calculados teó
 Presentar un informe con los resultados, gráficos y el análisis de los mismos.
 Para cada escenario y algoritmo, obtener data points para N = {10, 50, 500, 1000, 5000}.
 
+El informe debe ser entregado en formato PDF dentro de una carpeta `/informes` y con el nombre `tp1.pdf`. 
+
 ## Ejercicio 3
 
 Desarrollar un programa que utilice alguno de los algoritmos implementados para ordenar una lista de objetos del tipo:
@@ -54,6 +56,7 @@ Lista ordenanda:
 * Diaz, Diego
 
 Sólo un algoritmo debe utilizarse. Elegir uno y justificar por qué se eligió ese.
+La justificación debe entregarse en el informe  `tp1.pdf`.
 
 ## NOTAS
 
