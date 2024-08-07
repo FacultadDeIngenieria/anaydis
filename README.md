@@ -20,7 +20,7 @@
 ## Trabajos Prácticos
 
 2. [TP1](practice/1)
-<!-- 3. [TP2](practice/2) -->
+3. [TP2](practice/2)
 <!-- 4. [TP3](practice/3) -->
 <!-- 5. [TP4](practice/4) -->
 <!-- 6. [TP5](practice/5) -->

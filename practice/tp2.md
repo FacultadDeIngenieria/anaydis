@@ -6,8 +6,8 @@ permalink: /practice/2
 
 # Práctica 2: Shellsort y Quicksort
 
-* Fecha: 10 de agosto, 2023
-* Fecha de Entrega: 17 de agosto, 2023
+* Fecha: 8 de agosto, 2024
+* Fecha de Entrega: 16 de agosto, 2024
 
 ## Ejercicio 1
 
@@ -16,6 +16,8 @@ permalink: /practice/2
 3. La siguiente secuencia muestra el proceso de particionamiento para un array ordenado al azar. Explique el gráfico y qué sucede. ¿Por qué queda así en la última escena de la secuencia?
 
 ![]({{site.baseurl}}/practice/tp2_1.jpg)
+
+Las respuestas deben entregarse en un informe en formato PDF dentro de la carpeta `/informes` y con el nombre `tp2.pdf`.
 
 ## Ejercicio 2
 
@@ -45,7 +47,7 @@ public class HSorter extends AbstractSorter
 
 3. Agregar a nuestros Sorters, la clase ShellSorter implementando el shellsort (recordar que ya tenemos implementado el HSorter del punto [b])
 
-## Ejercicio 3
+## Ejercicio 3 (Opcional)
 
 Desarrollar un programa que sirva para comparar secuencias de incrementos de h para Shellsort. 
 Realizar un informe similar al de la Práctica 1, sobre la performance de shellsort para distintas secuencias de incrementos.
@@ -57,7 +59,8 @@ Las secuencias a utilizar para las pruebas son:
 1 8 23 77 281 1073 4193 16577 ....
 1 4 13 40 121 364 1093 3280 9841 ...
 
-Notemos que es necesario que el código del shellsort no esté atado a una secuencia específica. 
+Notemos que es necesario que el código del shellsort no esté atado a una secuencia específica.
+El informe tiene que entregarse en formato PDF dentro de la carpeta `/informes` y con el nombre `tp2.pdf`.
 
 
 Un ejemplo que utiliza una secuencia dada es:
