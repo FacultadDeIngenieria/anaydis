@@ -65,7 +65,7 @@
 
 ## Notas de las Prácticas
 
-[Link](https://docs.google.com/spreadsheets/d/17nbkRiuJ_VSXmryzxHN4f9wubV8z0Lh-4_nEnQLyrwY/edit?usp=sharing)
+- [Link](https://docs.google.com/spreadsheets/d/17nbkRiuJ_VSXmryzxHN4f9wubV8z0Lh-4_nEnQLyrwY/edit?usp=sharing)
 
 ## Cátedra
 
