@@ -7,14 +7,17 @@ class: center, middle, inverse
 # Conceptos
 
 * Algoritmo tipo ‘Divide & Conquer’
+    * Resuelvo un problema mas grande dividiendolo en partes
+    * Resolviendo esas partes 
+    * Y combinando esas soluciones para resolver el problema original 
 
-* Lineal-logarítmico (n ⋅ log2n) Garantizado
+* Lineal-logarítmico (n ⋅ log2n) garantizado
 
 * Estable
 
-* Práctico para listas.
+* Práctico para listas
 
-* ↓ Espacio extra = n
+* Desventaja: espacio extra proporcional a `n`
 
 ---
 
@@ -51,15 +54,15 @@ int[] merge(int[] a, int[] b) {
 
 * ¿Por qué “In-Place”?
 
-* Asume que los arreglos a ser “mergeados” están ambos en el mismo arreglo.
+* Asume que los arreglos a ser “mergeados” están ambos en el mismo arreglo
 
-* Usa un arreglo temporal.
+* Usa un arreglo temporal
 
-* Copia el resultado sobre el arreglo original.
+* Copia el resultado sobre el arreglo original
 
 * Trick:
-  * Copiar el segundo arreglo en forma invertida.
-  * Evito los tests de fin del arreglo.
+  * Copiar el segundo arreglo en forma invertida
+  * Evito los tests de fin del arreglo
 
 ---
 
@@ -97,6 +100,20 @@ void sort(int[] array, int low, int high) {
 	}
 }
 ```
+
+* Implementación recursiva, basada en el abstract merge
+ 
+* Para entender como ordena, hay que analizar las llamadas recursivas
+    * De ahí lo de "top-down"
+ 
+* Se puede usar insertion (o selection) para subsets chicos
+    * Para < 15 -> mejora 10-15% en el running time
+
+---
+
+# Top-Down
+
+.center[![]({{site.baseurl}}/presentation/mergesort/top_down_trace.png)]
 
 ---
 
