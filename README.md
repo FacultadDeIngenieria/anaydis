@@ -7,9 +7,8 @@
 1. [Algoritmos Elementales de Sorting](elemental_sorters)
 1. [Quicksort](quicksort)
 1. [Mergesort](mergesort)
-<!-- 1. [Search](search) -->
-<!-- 1. [Bits](bits) -->
-<!-- 1. [Tries](tries) -->
+1. [Bits](bits)
+1. [Tries](tries)
 <!-- 1. [Priority Queues](priority_queues) -->
 <!-- 1. [Immutable Collections](immutables) -->
 <!-- 1. [Compresión](compresion) -->
