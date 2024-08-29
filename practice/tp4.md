@@ -25,6 +25,7 @@ Luego de generado el mapa, efectuar N búsquedas de palabras y medir el tiempo t
 Realizar esto para las tres implementaciones de Map, tabular los tiempos y comparar.
 Como se desea analizar el peor caso, es importante que la mayoría de las búsquedas sean “misses”. Para ello, luego de construir el mapa con N palabras, tomar esas palabras e invertirlas (ej: “cantar” -> “ratnac”). Tomar este nuevo set de N palabras y utilizarlo para realizar las búsquedas.
 Realizar esto para N = {5000, 50000, 100000, 150000, 200000}.
+Agregar el análisis con los detalles y gráficos en el informe `informes/tp4.pdf`.
 
 NOTAS:
 Recordar que el Map no acepta claves repetidas, ni nulas.
