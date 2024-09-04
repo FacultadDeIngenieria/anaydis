@@ -253,6 +253,12 @@ private fun sink(k: Int) {
 
 # Heap-based priority queue
 
+.center[![]({{site.baseurl}}/presentation/priority_queues/heap-operations.png)]
+
+---
+
+# Heap-based priority queue
+
 
 ```kotlin
 class HeapPriorityQueue<K>(max: Int, private val comparator: Comparator<K>) : PriorityQueue<K> {

@@ -9,7 +9,7 @@
 1. [Mergesort](mergesort)
 1. [Bits](bits)
 1. [Tries](tries)
-<!-- 1. [Priority Queues](priority_queues) -->
+1. [Priority Queues](priority_queues)
 <!-- 1. [Immutable Collections](immutables) -->
 <!-- 1. [Compresión](compresion) -->
 <!-- 1. [String Searching](string_search) -->
