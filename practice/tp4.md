@@ -7,7 +7,7 @@ permalink: /practice/4
 # Práctica 4: Searching
 
 * Fecha: 29 de agosto, 2024
-* Fecha de entrega: 6 de septiembre, 2024
+* Fecha de entrega: 13 de septiembre, 2024
 
 ## Ejercicio 1
 
