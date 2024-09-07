@@ -55,7 +55,7 @@
 <!-- ## Parciales -->
 
 <!-- 1. [Examen Nivelador](https://forms.gle/C69Vex6gG9Hch7XG8)  -->
-2. Primer parcial: 26 de septiembre de 2024
+2. Primer parcial: 3 de octubre de 2024
 3. Segundo parcial: 7 de noviembre de 2024
 
 ## TeamCity
