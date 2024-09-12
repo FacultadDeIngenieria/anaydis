@@ -10,7 +10,7 @@
 1. [Bits](bits)
 1. [Tries](tries)
 1. [Priority Queues](priority_queues)
-<!-- 1. [Immutable Collections](immutables) -->
+1. [Immutable Collections](immutables)
 <!-- 1. [Compresión](compresion) -->
 <!-- 1. [String Searching](string_search) -->
 <!-- 1. [Cryptography](https://docs.google.com/a/ing.austral.edu.ar/presentation/d/1UAU9YEm9NVGmVXYC1T2WYYG6PKFZ23wY7HGL77-XZCI/edit?usp=sharing) -->
@@ -52,11 +52,16 @@
 
 <!-- 1. [The Yoda of Silicon Valley](https://www.nytimes.com/2018/12/17/science/donald-knuth-computers-algorithms-programming.html) -->
 
-<!-- ## Parciales -->
+## Parciales
+
+1. Primer parcial: 3 de octubre de 2024
+2. Segundo parcial: 7 de noviembre de 2024
+
+## Links
+
+- [Clase virtual 26/9](https://teams.microsoft.com/l/meetup-join/19%3ameeting_MDIzNWM2NTgtYmViOS00NjkyLWE1ZDAtMzVmOWMxNjc5MTA5%40thread.v2/0?context=%7b%22Tid%22%3a%223e0513d6-68fa-416e-8de1-6c5cdc319ffa%22%2c%22Oid%22%3a%2244d263ba-dd93-46f1-9c1d-04de83e2cf7e%22%7d)
 
 <!-- 1. [Examen Nivelador](https://forms.gle/C69Vex6gG9Hch7XG8)  -->
-2. Primer parcial: 3 de octubre de 2024
-3. Segundo parcial: 7 de noviembre de 2024
 
 ## TeamCity
 
