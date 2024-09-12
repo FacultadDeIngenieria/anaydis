@@ -6,8 +6,8 @@ permalink: /practice/6
 
 # Práctica 6: Immutability
 
-* Fecha: 28 de septiembre, 2023
-* Fecha de Entrega: 5 de octubre, 2023
+* Fecha: 12 de septiembre, 2023
+* Fecha de Entrega: 11 de octubre, 2023
 
 ## Ejercicio 1
 
