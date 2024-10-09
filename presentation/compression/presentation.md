@@ -53,7 +53,7 @@ class: center, middle, inverse
 * Encoding natural: 
   * (19 x 51) + 6 = 975 bits
  
-.center[![]({{site.baseurl}}/presentation/compresion/q.png)]
+.center[![]({{site.baseurl}}/presentation/compression/q.png)]
  
 ???
 
@@ -66,7 +66,7 @@ B&W: en gral son imágenes con muchos ceros (sparse)
 
 * RLE: (63 x 6) + 6 = 384 bits (63 6-bit run lengths)
 
-.center[![]({{site.baseurl}}/presentation/compresion/q_bits.png)]
+.center[![]({{site.baseurl}}/presentation/compression/q_bits.png)]
 
 ???
 
@@ -79,7 +79,7 @@ B&W: en gral son imágenes con muchos ceros (sparse)
 * Ideas básicas:
   * Código Morse, Braille.
 
-.center[![]({{site.baseurl}}/presentation/compresion/morse_braille.png)]
+.center[![]({{site.baseurl}}/presentation/compression/morse_braille.png)]
  
 ---
  
@@ -126,11 +126,11 @@ Entropía: Paper "A Mathematical Theory of Communication". Mide la incertidumbre
 * Para pasarlo a bits hacemos el log2
 * Definición de Entropía de la información como:
 
-.center[![]({{site.baseurl}}/presentation/compresion/entropia.png)]
+.center[![]({{site.baseurl}}/presentation/compression/entropia.png)]
 
 * Redundancia:
 
-.center[![]({{site.baseurl}}/presentation/compresion/redundancia.png)]
+.center[![]({{site.baseurl}}/presentation/compression/redundancia.png)]
 
 ---
 
@@ -236,7 +236,7 @@ Un codificador óptimo es aquel que utiliza el mínimo número de bits para codi
   * R: 20
 * Los más chicos son 10 y 10 (C and D), entonces los conectamos:
 
-.center[![]({{site.baseurl}}/presentation/compresion/huff_step1.png)]
+.center[![]({{site.baseurl}}/presentation/compression/huff_step1.png)]
 
 ---
  
@@ -245,7 +245,7 @@ Un codificador óptimo es aquel que utiliza el mínimo número de bits para codi
 * Los valores más chicos son ahora de 20: B, R y C+D.
 * Conectamos 2 cualquiera de estos
 
-.center[![]({{site.baseurl}}/presentation/compresion/huff_step2.png)]
+.center[![]({{site.baseurl}}/presentation/compression/huff_step2.png)]
 
 ---
 
@@ -254,14 +254,14 @@ Un codificador óptimo es aquel que utiliza el mínimo número de bits para codi
 * R con 20 tiene el valor más bajo. Los demás A y B+C+D todos valen 40
 * Conectamos R con cualquiera de estos
  
-.center[![]({{site.baseurl}}/presentation/compresion/huff_step3.png)]
+.center[![]({{site.baseurl}}/presentation/compression/huff_step3.png)]
  
 ---
 # Paso 4
 
 * Conectar los ultimos 2 nodos
 
-.center[![]({{site.baseurl}}/presentation/compresion/huff_step4.png)]
+.center[![]({{site.baseurl}}/presentation/compression/huff_step4.png)]
 
 ---
 
@@ -270,7 +270,7 @@ Un codificador óptimo es aquel que utiliza el mínimo número de bits para codi
 * Asignar 0 a las bifurcaciones a izquierda, 1 a la derecha
 * Cada código es el camino desde la raíz
 
-.center[![]({{site.baseurl}}/presentation/compresion/huff_step5.png)]
+.center[![]({{site.baseurl}}/presentation/compression/huff_step5.png)]
 
 * A = 0,B = 100,C = 1010,D = 1011,R = 11
 * Nunca hay prefijos !
@@ -283,7 +283,7 @@ Un codificador óptimo es aquel que utiliza el mínimo número de bits para codi
 * Voy recorriendo el árbol hasta llegar a una hoja
 * Emito ese símbolo y comienzo de nuevo
 
-.center[![]({{site.baseurl}}/presentation/compresion/huff_decode_01.png)]
+.center[![]({{site.baseurl}}/presentation/compression/huff_decode_01.png)]
 
 ---
  
@@ -310,7 +310,7 @@ Un codificador óptimo es aquel que utiliza el mínimo número de bits para codi
 
 # Compresión aritmética - Ejemplo
 
-.center[![]({{site.baseurl}}/presentation/compresion/arit_01.png)]
+.center[![]({{site.baseurl}}/presentation/compression/arit_01.png)]
 
 * El proceso consiste en ir achicando el rango en forma proporcional a la probabilidad del símbolo.
 * La fórmula para calcular los nuevos intervalos es :
@@ -330,7 +330,7 @@ Un codificador óptimo es aquel que utiliza el mínimo número de bits para codi
   * 0.8125 pasa a ser (0.8125 - 0.4) / (0.9 - 0.4) = 0.825
 * Sigo hasta completar la longitud (O también se puede incluir un caracter de EOF)
 
-.center[![]({{site.baseurl}}/presentation/compresion/arit_02.png)]
+.center[![]({{site.baseurl}}/presentation/compression/arit_02.png)]
 
 ---
 
@@ -339,7 +339,7 @@ Un codificador óptimo es aquel que utiliza el mínimo número de bits para codi
 * Los números racionales son representados por enteros con la coma a la izquierda
 * Ejemplos con enteros de 8 bits
  
-.center[![]({{site.baseurl}}/presentation/compresion/arit_03.png)]
+.center[![]({{site.baseurl}}/presentation/compression/arit_03.png)]
  
 * El primer intervalo es entonces 00000000...000, 11111111...111
 * A medida que se achican los intervalos los primeros bits van a ser iguales.
@@ -376,7 +376,7 @@ https://marknelson.us/posts/1996/09/01/bwt.html
 * Vemos acá un String de 7 elementos
 * En la realidad se trabaja con bloques de cientos de Kb.
 
-.center[![]({{site.baseurl}}/presentation/compresion/bwt_01.png)]
+.center[![]({{site.baseurl}}/presentation/compression/bwt_01.png)]
 
 ---
 
@@ -385,7 +385,7 @@ https://marknelson.us/posts/1996/09/01/bwt.html
 * Considerar todas las rotaciones del String
   * No es necesario hacer N copias (alcanza con tener punteros a las posiciones).
 
-.center[![]({{site.baseurl}}/presentation/compresion/bwt_02.png)] 
+.center[![]({{site.baseurl}}/presentation/compression/bwt_02.png)] 
 
 ---
 
@@ -394,13 +394,13 @@ https://marknelson.us/posts/1996/09/01/bwt.html
 * Ordenar el set de Strings rotados.
   * Se precisa un Comparator especial para trabajar sobre el mismo String basado en el pointer.
 
-.center[![]({{site.baseurl}}/presentation/compresion/bwt_03.png)] 
+.center[![]({{site.baseurl}}/presentation/compression/bwt_03.png)] 
  
 ---
 
 # Segundo paso – Ordenar
 
-.center[![]({{site.baseurl}}/presentation/compresion/bwt_03.png)] 
+.center[![]({{site.baseurl}}/presentation/compression/bwt_03.png)] 
 
 * El String original paso a estar en la cuarta fila.
 * La columna F contiene al String original ordenado. Esto es "BBDDORS".
@@ -427,7 +427,7 @@ https://marknelson.us/posts/1996/09/01/bwt.html
 * Por ejemplo en la figura anterior la fila 3 contiene S0 y la fila 5 contine S1 por lo tanto T3 = 5.
 * Para este caso el vector es { 1, 6, 4, 5, 0, 2, 3 }.
 
-.center[![]({{site.baseurl}}/presentation/compresion/bwt_04.png)]
+.center[![]({{site.baseurl}}/presentation/compression/bwt_04.png)]
 
 ---
 
@@ -464,7 +464,7 @@ String decode()
   * La 'B" en la fila 6 de L se mueve a la fila 1 de F.
 * Para calcular F solo preciso ordenar L
 
-.center[![]({{site.baseurl}}/presentation/compresion/bwt_05.png)]
+.center[![]({{site.baseurl}}/presentation/compression/bwt_05.png)]
 
 ---
 
@@ -494,7 +494,7 @@ String decode()
 * Se empieza por un diccionario con todos los caracteres: “abcde…”
 * Cada letra que aparece se emite con el índice actual y se modifica el diccionario poniendo adelante esa letra.
 
-.center[![]({{site.baseurl}}/presentation/compresion/mtf_01.png)]
+.center[![]({{site.baseurl}}/presentation/compression/mtf_01.png)]
 
 ---
 
@@ -503,7 +503,7 @@ String decode()
 * Vuelvo a comenzar con un diccionario con todos los caracteres: “abcde…”
 * Por cada índice que voy procesando, emito la letra y se modifica el diccionario poniendo adelante esa letra.
 
-.center[![]({{site.baseurl}}/presentation/compresion/mtf_02.png)]
+.center[![]({{site.baseurl}}/presentation/compression/mtf_02.png)]
 
 ---
 
