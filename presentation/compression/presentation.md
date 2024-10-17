@@ -431,6 +431,21 @@ https://marknelson.us/posts/1996/09/01/bwt.html
 
 ---
 
+# Cálculo de T
+
+* Teniendo L y F puedo calcular T
+* El caracter 'O' en la fila 0 se mueve a la fila 4 de F con lo cual T[ 4 ] = 0 .
+* Y la fila 1?
+  * La 'B' podría corresponder a la fila 0 o a la 1.
+* Como F esta Ordenada:
+  * La 'B' de la fila 1 de L se mueve a la fila 0 de F.
+  * La 'B" en la fila 6 de L se mueve a la fila 1 de F.
+* Para calcular F solo preciso ordenar L
+
+.center[![]({{site.baseurl}}/presentation/compression/bwt_05.png)]
+
+---
+
 # Decode
 
 ```java
@@ -449,22 +464,6 @@ String decode()
     return cout;
 }
 ```
-
-
----
-
-# Cálculo de T
-
-* Teniendo L y F puedo calcular T
-* El caracter 'O' en la fila 0 se mueve a la fila 4 de F con lo cual T[ 4 ] = 0 .
-* Y la fila 1?
-  * La 'B' podría corresponder a la fila 0 o a la 1.
-* Como F esta Ordenada:
-  * La 'B' de la fila 1 de L se mueve a la fila 0 de F.
-  * La 'B" en la fila 6 de L se mueve a la fila 1 de F.
-* Para calcular F solo preciso ordenar L
-
-.center[![]({{site.baseurl}}/presentation/compression/bwt_05.png)]
 
 ---
 
