@@ -43,6 +43,7 @@
 
 ## Links
 
+1. [A Block-sorting Lossless Data Compression Algorithm](https://web.archive.org/web/20060427023016/http://www.hpl.hp.com/techreports/Compaq-DEC/SRC-RR-124.pdf)
 <!-- 1. [Tail Recursion in Java, why not?](http://web.archive.org/web/20140422180613/https://www.drdobbs.com/jvm/tail-call-optimization-and-java/240167044) -->
 <!-- 2. [Implementing Persistent Vectors](http://www.codecommit.com/blog/scala/implementing-persistent-vectors-in-scala) -->
 <!-- 3. [macOS Sierra Debug Problem Fix](https://stackoverflow.com/questions/44680463/intellij-idea-debugger-is-too-slow-to-start-on-macos) -->
