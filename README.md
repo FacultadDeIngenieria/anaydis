@@ -12,7 +12,7 @@
 1. [Priority Queues](priority_queues)
 1. [Immutable Collections](immutables)
 1. [Compresión](compression)
-<!-- 1. [String Searching](string_search) -->
+1. [String Searching](string_search)
 <!-- 1. [Cryptography](https://docs.google.com/a/ing.austral.edu.ar/presentation/d/1UAU9YEm9NVGmVXYC1T2WYYG6PKFZ23wY7HGL77-XZCI/edit?usp=sharing) -->
 <!-- 10. [KDTrees](https://docs.google.com/presentation/d/1PRaMmgOBoi9FqL7niK6TClSKqtPhUb9a3XePVo2WH-I/edit#slide=id.g2680d7c9ef_0_0) -->
 
@@ -26,7 +26,7 @@
 7. [TP6](practice/6)
 8. [TP7](practice/7)
 9. [TP8](practice/8)
-<!-- 10. [TP9](practice/9) -->
+10. [TP9](practice/9)
 <!-- 11. [TP10](practice/10) -->
 <!-- 4. [TP4Bis](practice/4bis) -->
 
