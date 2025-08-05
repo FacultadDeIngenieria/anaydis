@@ -5,28 +5,28 @@
 ## Presentaciones
 
 1. [Algoritmos Elementales de Sorting](elemental_sorters)
-1. [Quicksort](quicksort)
-1. [Mergesort](mergesort)
-1. [Bits](bits)
-1. [Tries](tries)
-1. [Priority Queues](priority_queues)
-1. [Immutable Collections](immutables)
-1. [Compresión](compression)
-1. [String Searching](string_search)
-1. [Cryptography](https://docs.google.com/a/ing.austral.edu.ar/presentation/d/1UAU9YEm9NVGmVXYC1T2WYYG6PKFZ23wY7HGL77-XZCI/edit?usp=sharing)
+<!-- 1. [Quicksort](quicksort) -->
+<!-- 1. [Mergesort](mergesort) -->
+<!-- 1. [Bits](bits) -->
+<!-- 1. [Tries](tries) -->
+<!-- 1. [Priority Queues](priority_queues) -->
+<!-- 1. [Immutable Collections](immutables) -->
+<!-- 1. [Compresión](compression) -->
+<!-- 1. [String Searching](string_search) -->
+<!-- 1. [Cryptography](https://docs.google.com/a/ing.austral.edu.ar/presentation/d/1UAU9YEm9NVGmVXYC1T2WYYG6PKFZ23wY7HGL77-XZCI/edit?usp=sharing) -->
 <!-- 10. [KDTrees](https://docs.google.com/presentation/d/1PRaMmgOBoi9FqL7niK6TClSKqtPhUb9a3XePVo2WH-I/edit#slide=id.g2680d7c9ef_0_0) -->
 
 ## Trabajos Prácticos
 
 2. [TP1](practice/1)
-3. [TP2](practice/2)
-4. [TP3](practice/3)
-5. [TP4](practice/4)
-6. [TP5](practice/5)
-7. [TP6](practice/6)
-8. [TP7](practice/7)
-9. [TP8](practice/8)
-10. [TP9](practice/9)
+<!-- 3. [TP2](practice/2) -->
+<!-- 4. [TP3](practice/3) -->
+<!-- 5. [TP4](practice/4) -->
+<!-- 6. [TP5](practice/5) -->
+<!-- 7. [TP6](practice/6) -->
+<!-- 8. [TP7](practice/7) -->
+<!-- 9. [TP8](practice/8) -->
+<!-- 10. [TP9](practice/9) -->
 <!-- 11. [TP10](practice/10) -->
 <!-- 4. [TP4Bis](practice/4bis) -->
 
@@ -55,12 +55,12 @@
 
 ## Parciales
 
-1. Primer parcial: 3 de octubre de 2024
-2. Segundo parcial: 7 de noviembre de 2024
+1. Primer parcial: 2 de octubre de 2025
+2. Segundo parcial: 6 de noviembre de 2025
 
-## Links
+<!-- ## Links -->
 
-- [Clase virtual 26/9](https://teams.microsoft.com/l/meetup-join/19%3ameeting_MDIzNWM2NTgtYmViOS00NjkyLWE1ZDAtMzVmOWMxNjc5MTA5%40thread.v2/0?context=%7b%22Tid%22%3a%223e0513d6-68fa-416e-8de1-6c5cdc319ffa%22%2c%22Oid%22%3a%2244d263ba-dd93-46f1-9c1d-04de83e2cf7e%22%7d)
+<!-- - [Clase virtual 26/9](https://teams.microsoft.com/l/meetup-join/19%3ameeting_MDIzNWM2NTgtYmViOS00NjkyLWE1ZDAtMzVmOWMxNjc5MTA5%40thread.v2/0?context=%7b%22Tid%22%3a%223e0513d6-68fa-416e-8de1-6c5cdc319ffa%22%2c%22Oid%22%3a%2244d263ba-dd93-46f1-9c1d-04de83e2cf7e%22%7d) -->
 
 <!-- 1. [Examen Nivelador](https://forms.gle/C69Vex6gG9Hch7XG8)  -->
 

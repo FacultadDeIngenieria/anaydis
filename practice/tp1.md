@@ -6,8 +6,8 @@ permalink: /practice/1
 
 # Práctica 1: Algoritmos de Sorting Elementales
 
-* Fecha: 1 de agosto, 2024
-* Fecha de Entrega: 16 de agosto, 2024
+* Fecha: 7 de agosto, 2025
+* Fecha de Entrega: 22 de agosto, 2025
 
 ## Ejercicio 1
 
