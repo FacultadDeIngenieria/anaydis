@@ -18,17 +18,17 @@
 
 ## Trabajos Prácticos
 
-2. [TP1](practice/1)
-<!-- 3. [TP2](practice/2) -->
-<!-- 4. [TP3](practice/3) -->
-<!-- 5. [TP4](practice/4) -->
-<!-- 6. [TP5](practice/5) -->
-<!-- 7. [TP6](practice/6) -->
-<!-- 8. [TP7](practice/7) -->
-<!-- 9. [TP8](practice/8) -->
-<!-- 10. [TP9](practice/9) -->
-<!-- 11. [TP10](practice/10) -->
-<!-- 4. [TP4Bis](practice/4bis) -->
+1. [TP1](practice/1)
+1. [TP2](practice/2)
+<!-- 1. [TP3](practice/3) -->
+<!-- 1. [TP4](practice/4) -->
+<!-- 1. [TP5](practice/5) -->
+<!-- 1. [TP6](practice/6) -->
+<!-- 1. [TP7](practice/7) -->
+<!-- 1. [TP8](practice/8) -->
+<!-- 1. [TP9](practice/9) -->
+<!-- 1. [TP10](practice/10) -->
+<!-- 1. [TP4Bis](practice/4bis) -->
 
 ## Reglas para las prácticas
 1. Todas las prácticas deben ser entregadas en su fecha de entrega, la cual se informa con la presentación del TP.
