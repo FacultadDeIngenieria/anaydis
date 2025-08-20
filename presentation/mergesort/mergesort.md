@@ -69,19 +69,57 @@ int[] merge(int[] a, int[] b) {
 # Código "In-Place" Merge
 
 ```java
-void merge(int[] array, int low, int middle, int high) {
-	for (int i = low; i <= middle; i++) {
-		copy(aux, i, array, i);
+// Merge a[lo..mid] with a[mid+1..hi].
+void merge(Comparable[] a, int lo, int mid, int hi)
+{ 
+	int i = lo, j = mid+1;
+	for (int k = lo; k <= hi; k++) // Copy a[lo..hi] to aux[lo..hi].
+		aux[k] = a[k];
+
+	for (int k = lo; k <= hi; k++) // Merge back to a[lo..hi].
+		if (i > mid) a[k] = aux[j++];
+		else if (j > hi ) a[k] = aux[i++];
+		else if (less(aux[j], aux[i])) a[k] = aux[j++];
+		else a[k] = aux[i++];
+
+}
+```
+???
+
+This method merges by first copying into the auxiliary array aux[] then merging back to a[]. In the
+merge (the second for loop), there are four conditions: left half exhausted (take from the right), right
+half exhausted (take from the left), current key on right less than current key on left (take from the
+right), and current key on right greater than or equal to current key on left (take from the left).
+
+---
+
+# Example
+
+.center[![]({{site.baseurl}}/presentation/mergesort/example.png)]
+
+---
+
+# Top-Down Merge Sort
+
+```java
+public class Merge
+{
+	private static Comparable[] aux; // auxiliary array for merges
+
+	public static void sort(Comparable[] a)
+	{
+		aux = new Comparable[a.length]; // Allocate space just once.
+
+		sort(a, 0, a.length - 1); 
 	}
-	for (int j = middle + 1; j <= high; j++) {
-		copy(aux, high + (middle + 1) - j, array, j);
-	}
-	for (int k = low, i = low, j = high; k <= high; k++) {
-		if(greater(aux, i, j)) {
-			copy(array, k, aux, j--);
-		} else {
-			copy(array, k, aux, i++);
-		}
+	
+	private static void sort(Comparable[] a, int lo, int hi) // Sort a[lo..hi].
+	{ 
+		if (hi <= lo) return;
+		int mid = lo + (hi - lo)/2;
+		sort(a, lo, mid); // Sort left half.
+		sort(a, mid+1, hi); // Sort right half.
+		merge(a, lo, mid, hi); // Merge results.
 	}
 }
 ```
@@ -89,17 +127,6 @@ void merge(int[] array, int low, int middle, int high) {
 ---
 
 # Top-Down Merge Sort
-
-```java
-void sort(int[] array, int low, int high) {
-	if(low < high) {
-		int mid = (low + high) / 2;
-		sort(array, low, mid);
-		sort(array, mid + 1, high);
-		merge(array, low, mid, high);
-	}
-}
-```
 
 * Implementación recursiva, basada en el abstract merge
  
@@ -138,16 +165,29 @@ void sort(int[] array, int low, int high) {
 # Código Bottom-Up
 
 ```java
-void sort(int[] array, int low, int high) {
-	for(int middle = 1; middle <= high - low; middle *= 2) {
-		final int middleX2 = middle * 2;
-		for (int low1 = low; low1 <= high - middle; low1 += middleX2) {
-			final int high1 = Math.min(low1 - low + middleX2 - 1, high);
-			merge(array, low1, low1 + middle - 1, high1);
+public class Merge 
+{
+	private static Comparable[] aux; // auxiliary array for merges
+	
+	void sort(int[] array, int low, int high) {
+		aux = new Comparable[N];
+
+		for(int middle = 1; middle <= high - low; middle *= 2) {
+			final int middleX2 = middle * 2;
+			for (int low1 = low; low1 <= high - middle; low1 += middleX2) {
+				final int high1 = Math.min(low1 - low + middleX2 - 1, high);
+				merge(array, low1, low1 + middle - 1, high1);
+			}
 		}
 	}
 }
 ```
+
+---
+
+# Example
+
+.center[![]({{site.baseurl}}/presentation/mergesort/buexample.png)]
 
 ---
 

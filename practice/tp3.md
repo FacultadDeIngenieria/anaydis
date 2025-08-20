@@ -6,8 +6,8 @@ permalink: /practice/3
 
 # Práctica 3: Quicksort y Mergesort
 
-* Fecha: 22 de Agosto, 2024
-* Fecha de Entrega: 30 de Agosto, 2024
+* Fecha: 21 de Agosto, 2025
+* Fecha de Entrega: 29 de Agosto, 2025
 
 ## Ejercicio 1
 
