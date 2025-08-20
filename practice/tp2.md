@@ -6,8 +6,8 @@ permalink: /practice/2
 
 # Práctica 2: Shellsort y Quicksort
 
-* Fecha: 8 de agosto, 2024
-* Fecha de Entrega: 16 de agosto, 2024
+* Fecha: 15 de agosto, 2025
+* Fecha de Entrega: 04 de septiembre, 2025
 
 ## Ejercicio 1
 
