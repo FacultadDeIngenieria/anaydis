@@ -6,8 +6,8 @@ permalink: /practice/5
 
 # Práctica 5: Priority Queues
 
-* Fecha: 5 de septiembre 2024
-* Fecha de entrega: 20 de septiembre 2024
+* Fecha: 4 de septiembre 2025
+* Fecha de entrega: 12 de septiembre 2025
 
 ## Setup
 Para poder llevar a cabo esta práctica, es necesario actualizar la dependencia `ar.edu.austral.fi.algorithms:anaydis-base` a la version `1.3.14`.
