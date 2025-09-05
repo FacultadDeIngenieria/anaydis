@@ -49,7 +49,9 @@
 <!-- 3. [macOS Sierra Debug Problem Fix](https://stackoverflow.com/questions/44680463/intellij-idea-debugger-is-too-slow-to-start-on-macos) -->
 <!-- 4. [Purely Functional Data Structures](https://www.cs.cmu.edu/~rwh/theses/okasaki.pdf) -->
 
-<!-- ## Articles -->
+## Articles
+
+1. [The Sorcerer's Apprentice](https://www.linkedin.com/pulse/sorcerers-apprentice-dave-thomas-0lq5c/)
 
 <!-- 1. [The Yoda of Silicon Valley](https://www.nytimes.com/2018/12/17/science/donald-knuth-computers-algorithms-programming.html) -->
 
