@@ -10,7 +10,7 @@
 1. [Bits](bits)
 1. [Tries](tries)
 1. [Priority Queues](priority_queues)
-<!-- 1. [Immutable Collections](immutables) -->
+1. [Immutable Collections](immutables)
 <!-- 1. [Compresión](compression) -->
 <!-- 1. [String Searching](string_search) -->
 <!-- 1. [Cryptography](https://docs.google.com/a/ing.austral.edu.ar/presentation/d/1UAU9YEm9NVGmVXYC1T2WYYG6PKFZ23wY7HGL77-XZCI/edit?usp=sharing) -->
