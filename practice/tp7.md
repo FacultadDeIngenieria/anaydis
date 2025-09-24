@@ -6,8 +6,8 @@ permalink: /practice/7
 
 # Práctica 7: Compression Part 1
 
-* Fecha: 10 de Octubre, 2024
-* Fecha de Entrega: 25 de Octubre, 2024
+* Fecha: 25 de Septimbre, 2025
+* Fecha de Entrega: 10 de Octubre, 2025
 
 ## Ejercicio 1
 
