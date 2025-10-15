@@ -6,8 +6,8 @@ permalink: /practice/9
 
 # Práctica 9: String Searching
 
-* Fecha: 24 de octubre, 2024
-* Fecha de Entrega: 1 de noviembre, 2024
+* Fecha: 16 de octubre, 2025
+* Fecha de Entrega: 24 de octubre, 2025
 
 ## Ejercicio 1
 
