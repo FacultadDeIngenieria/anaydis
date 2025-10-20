@@ -165,8 +165,36 @@ Tiempo de ejecución: depende del largo del texto (N) y del pattern (M)
 
 # Rabin Karp
 
-.center[![]({{site.baseurl}}/presentation/string_search/rk_impl.png)]
-
+```java
+class RabinKarp
+{
+    static final int MODULE = 3355439;
+    static final int RADIX 256;
+    int search(String pattern, String text)
+    {
+        int m = pattern.length();
+        int n = text.length();
+        int radixMod = 1;
+        int patternHash = 0;
+        
+        for (int i = 1; i < m; i++)
+            radixMod = (RADIX * radixMod) % MODULE;
+        for (int i = 0; i < m; i++)
+            patternHash = (patternHash * RADIX + pattern.charAt(i)) % MODULE;
+        for (int i = 0; i < m; i++)
+            textHash = (textHash * RADIX + text.charAt (i)) % MODULE;
+        //Main search loop
+        for (int i = m; i < n; i++) {
+            if (textHash == patternHash)
+                return i - m;
+            textHash = (textHash + RADIX * MODULE - text.charAt(i-m) * radixMod) 
+                            % MODULE;
+            textHash = (textHash * RADIX + text.charAt(i)) % MODULE;
+        }
+        return -1;
+    }
+}
+```
 
 ---
 
