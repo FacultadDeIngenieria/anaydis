@@ -14,6 +14,7 @@
 1. [Compresión](compression)
 1. [String Searching](string_search)
 1. [Cryptography](https://docs.google.com/a/ing.austral.edu.ar/presentation/d/1UAU9YEm9NVGmVXYC1T2WYYG6PKFZ23wY7HGL77-XZCI/edit?usp=sharing)
+1. [Backtracking](https://drive.google.com/file/d/1kjeVc61dPF3KXVXugfmEB4qWhdn-zxlR/view?usp=drive_link)
 <!-- 10. [KDTrees](https://docs.google.com/presentation/d/1PRaMmgOBoi9FqL7niK6TClSKqtPhUb9a3XePVo2WH-I/edit#slide=id.g2680d7c9ef_0_0) -->
 
 ## Trabajos Prácticos
@@ -44,6 +45,9 @@
 ## Links
 
 1. [A Block-sorting Lossless Data Compression Algorithm](https://web.archive.org/web/20060427023016/http://www.hpl.hp.com/techreports/Compaq-DEC/SRC-RR-124.pdf)
+1. [Backtracking: Queens](https://drive.google.com/file/d/1o68MGQI8mFcKysXQ5pBnFTdnZodNKQsr/view?usp=drive_link)
+1. [Backtracking: Subsets 1](https://drive.google.com/file/d/18xCkXeok0khyqWUMfzpQ8NpD_9B_84Bx/view?usp=drive_link)
+1. [Backtracking: Subsets 2](https://drive.google.com/file/d/1Izs2cTgRJam6WpiE8Yi4M80oIO3xLGV3/view?usp=drive_link)
 <!-- 1. [Tail Recursion in Java, why not?](http://web.archive.org/web/20140422180613/https://www.drdobbs.com/jvm/tail-call-optimization-and-java/240167044) -->
 <!-- 2. [Implementing Persistent Vectors](http://www.codecommit.com/blog/scala/implementing-persistent-vectors-in-scala) -->
 <!-- 3. [macOS Sierra Debug Problem Fix](https://stackoverflow.com/questions/44680463/intellij-idea-debugger-is-too-slow-to-start-on-macos) -->
@@ -59,10 +63,6 @@
 
 1. Primer parcial: 2 de octubre de 2025
 2. Segundo parcial: 6 de noviembre de 2025
-
-<!-- ## Links -->
-
-<!-- - [Clase virtual 26/9](https://teams.microsoft.com/l/meetup-join/19%3ameeting_MDIzNWM2NTgtYmViOS00NjkyLWE1ZDAtMzVmOWMxNjc5MTA5%40thread.v2/0?context=%7b%22Tid%22%3a%223e0513d6-68fa-416e-8de1-6c5cdc319ffa%22%2c%22Oid%22%3a%2244d263ba-dd93-46f1-9c1d-04de83e2cf7e%22%7d) -->
 
 <!-- 1. [Examen Nivelador](https://forms.gle/C69Vex6gG9Hch7XG8)  -->
 
