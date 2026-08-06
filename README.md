@@ -61,8 +61,8 @@
 
 ## Parciales
 
-1. Primer parcial: 24 de septiembre de 2026
-2. Segundo parcial: 5 de noviembre de 2026
+1. Primer parcial: x de octubre de 2026
+2. Segundo parcial: x de noviembre de 2026
 
 <!-- 1. [Examen Nivelador](https://forms.gle/C69Vex6gG9Hch7XG8)  -->
 
