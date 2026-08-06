@@ -5,29 +5,29 @@
 ## Presentaciones
 
 1. [Algoritmos Elementales de Sorting](elemental_sorters)
-1. [Quicksort](quicksort)
-1. [Mergesort](mergesort)
-1. [Bits](bits)
-1. [Tries](tries)
-1. [Priority Queues](priority_queues)
-1. [Immutable Collections](immutables)
-1. [Compresión](compression)
-1. [String Searching](string_search)
-1. [Cryptography](https://docs.google.com/a/ing.austral.edu.ar/presentation/d/1UAU9YEm9NVGmVXYC1T2WYYG6PKFZ23wY7HGL77-XZCI/edit?usp=sharing)
-1. [Backtracking](https://drive.google.com/file/d/1kjeVc61dPF3KXVXugfmEB4qWhdn-zxlR/view?usp=drive_link)
+<!-- 1. [Quicksort](quicksort) -->
+<!-- 1. [Mergesort](mergesort) -->
+<!-- 1. [Bits](bits) -->
+<!-- 1. [Tries](tries) -->
+<!-- 1. [Priority Queues](priority_queues) -->
+<!-- 1. [Immutable Collections](immutables) -->
+<!-- 1. [Compresión](compression) -->
+<!-- 1. [String Searching](string_search) -->
+<!-- 1. [Cryptography](https://docs.google.com/a/ing.austral.edu.ar/presentation/d/1UAU9YEm9NVGmVXYC1T2WYYG6PKFZ23wY7HGL77-XZCI/edit?usp=sharing) -->
+<!-- 1. [Backtracking](https://drive.google.com/file/d/1kjeVc61dPF3KXVXugfmEB4qWhdn-zxlR/view?usp=drive_link) -->
 <!-- 10. [KDTrees](https://docs.google.com/presentation/d/1PRaMmgOBoi9FqL7niK6TClSKqtPhUb9a3XePVo2WH-I/edit#slide=id.g2680d7c9ef_0_0) -->
 
 ## Trabajos Prácticos
 
 1. [TP1](practice/1)
-1. [TP2](practice/2)
-1. [TP3](practice/3)
-1. [TP4](practice/4)
-1. [TP5](practice/5)
-1. [TP6](practice/6)
-1. [TP7](practice/7)
-1. [TP8](practice/8)
-1. [TP9](practice/9)
+<!-- 1. [TP2](practice/2) -->
+<!-- 1. [TP3](practice/3) -->
+<!-- 1. [TP4](practice/4) -->
+<!-- 1. [TP5](practice/5) -->
+<!-- 1. [TP6](practice/6) -->
+<!-- 1. [TP7](practice/7) -->
+<!-- 1. [TP8](practice/8) -->
+<!-- 1. [TP9](practice/9) -->
 <!-- 1. [TP10](practice/10) -->
 <!-- 1. [TP4Bis](practice/4bis) -->
 
@@ -44,10 +44,10 @@
 
 ## Links
 
-1. [A Block-sorting Lossless Data Compression Algorithm](https://web.archive.org/web/20060427023016/http://www.hpl.hp.com/techreports/Compaq-DEC/SRC-RR-124.pdf)
-1. [Backtracking: Queens](https://drive.google.com/file/d/1o68MGQI8mFcKysXQ5pBnFTdnZodNKQsr/view?usp=drive_link)
-1. [Backtracking: Subsets 1](https://drive.google.com/file/d/18xCkXeok0khyqWUMfzpQ8NpD_9B_84Bx/view?usp=drive_link)
-1. [Backtracking: Subsets 2](https://drive.google.com/file/d/1Izs2cTgRJam6WpiE8Yi4M80oIO3xLGV3/view?usp=drive_link)
+<!-- 1. [A Block-sorting Lossless Data Compression Algorithm](https://web.archive.org/web/20060427023016/http://www.hpl.hp.com/techreports/Compaq-DEC/SRC-RR-124.pdf) -->
+<!-- 1. [Backtracking: Queens](https://drive.google.com/file/d/1o68MGQI8mFcKysXQ5pBnFTdnZodNKQsr/view?usp=drive_link) -->
+<!-- 1. [Backtracking: Subsets 1](https://drive.google.com/file/d/18xCkXeok0khyqWUMfzpQ8NpD_9B_84Bx/view?usp=drive_link) -->
+<!-- 1. [Backtracking: Subsets 2](https://drive.google.com/file/d/1Izs2cTgRJam6WpiE8Yi4M80oIO3xLGV3/view?usp=drive_link) -->
 <!-- 1. [Tail Recursion in Java, why not?](http://web.archive.org/web/20140422180613/https://www.drdobbs.com/jvm/tail-call-optimization-and-java/240167044) -->
 <!-- 2. [Implementing Persistent Vectors](http://www.codecommit.com/blog/scala/implementing-persistent-vectors-in-scala) -->
 <!-- 3. [macOS Sierra Debug Problem Fix](https://stackoverflow.com/questions/44680463/intellij-idea-debugger-is-too-slow-to-start-on-macos) -->
@@ -61,8 +61,8 @@
 
 ## Parciales
 
-1. Primer parcial: 2 de octubre de 2025
-2. Segundo parcial: 6 de noviembre de 2025
+1. Primer parcial: x de octubre de 2026
+2. Segundo parcial: x de noviembre de 2026
 
 <!-- 1. [Examen Nivelador](https://forms.gle/C69Vex6gG9Hch7XG8)  -->
 
@@ -72,7 +72,7 @@
 
 ## Notas de las Prácticas
 
-- [Link](https://docs.google.com/spreadsheets/d/17nbkRiuJ_VSXmryzxHN4f9wubV8z0Lh-4_nEnQLyrwY/edit?usp=sharing)
+<!-- - [Link](https://docs.google.com/spreadsheets/d/17nbkRiuJ_VSXmryzxHN4f9wubV8z0Lh-4_nEnQLyrwY/edit?usp=sharing)  -->
 
 ## Cátedra
 
