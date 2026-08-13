@@ -70,7 +70,7 @@ It is best to stop the left scan for elements greater than or equal to the parti
 
 * Divide un archivo en dos subarchivos que pueden ser ordenados en forma independiente
 
-.center[![]({{site.baseurl}}/presentation/quicksort/particionamiento2.jpg)]
+.img-50.center[![]({{site.baseurl}}/presentation/quicksort/particionamiento2.jpg)]
 
 ---
 
@@ -84,23 +84,22 @@ It is best to stop the left scan for elements greater than or equal to the parti
 
 ```java
 private static int partition(Comparable[] a, int lo, int hi) {
-	int i = lo - 1;
-	int j = hi;
+  int i = lo;
+  int j = hi + 1;
 
-	while(true) {
-		while( less(a[++i], a[hi]) ) //find item left to swap
-			if (i == hi) break;
+  while (true) {
+    while (less(a[++i], a[lo])) { //find item left to swap
+      if (i == hi) break;
+    }
+    while (less(a[lo], a[--j])) { //find item right to swap
+      if (j == lo) break; // Sentinel at a[lo] avoids explicit bound check
+    }
+    if (i >= j) break; //check if pointers cross
+    exch(a, i, j);
+  }
 
-		while( less(a[hi], a[--j]) ) //find item right to swap
-			if (j == lo) break;
-
-		if (i >= j) break; //check if pointers cross
-
-		exch(a, i, j); //swap
-	}
-
-	exch(a, i, hi); //swap with partitioning item
-	return i; //return index of item now known to be in place
+  exch(a, lo, j); //swap with partitioning item
+  return j; //return index of item now known to be in place
 }
 ```
 
@@ -116,7 +115,7 @@ When duplicates are present, it is (counter-intuitively) best to stop on element
 
 # Implementación - partition
 
-.center[![]({{site.baseurl}}/presentation/quicksort/particionamiento3.jpg)]
+.img-70.center[![]({{site.baseurl}}/presentation/quicksort/particionamiento3.jpg)]
 
 ---
 
@@ -135,7 +134,7 @@ private static void sort(Comparable[] a, int lo, int hi) {
 
 # Quicksort - ejemplo
 
-.center[![]({{site.baseurl}}/presentation/quicksort/sample.jpg)]
+.img-90.center[![]({{site.baseurl}}/presentation/quicksort/sample.jpg)]
 
 ???
 
@@ -212,7 +211,7 @@ static void quicksortNonRecursive(Comparable[] a, int l, int r)
 		}
 		stack.push(i + 1);
 		stack.push(r);
-		if (r - i >= i – l) {
+		if (r - i >= i - l) {
 			stack.push(l);
 			stack.push(i - 1);
 		}
@@ -375,8 +374,6 @@ When there are many duplicate keys present in the file to be sorted, the quickso
   * Maneja claves duplicadas eficientemente y produce un mínimo overhead para los casos sin claves duplicadas
 
 .center[![]({{site.baseurl}}/presentation/quicksort/3-way2.jpg)]
-
-* https://web.archive.org/web/20121105224102/http://www.mathcs.emory.edu:80/~cheung/Courses/171/Syllabus/08-Sort/quick-sort.html
 
 ---
 
