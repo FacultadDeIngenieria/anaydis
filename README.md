@@ -7,7 +7,7 @@
 1. [Algoritmos Elementales de Sorting](elemental_sorters)
 1. [Quicksort](quicksort)
 2. [Benchmarking](benchmarking)
-<!-- 1. [Mergesort](mergesort) -->
+1. [Mergesort](mergesort)
 <!-- 1. [Bits](bits) -->
 <!-- 1. [Tries](tries) -->
 <!-- 1. [Priority Queues](priority_queues) -->
@@ -22,7 +22,7 @@
 
 1. [TP1](practice/1)
 2. [TP2](practice/2)
-<!-- 1. [TP3](practice/3) -->
+1. [TP3](practice/3)
 <!-- 1. [TP4](practice/4) -->
 <!-- 1. [TP5](practice/5) -->
 <!-- 1. [TP6](practice/6) -->
