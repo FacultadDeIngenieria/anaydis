@@ -8,8 +8,8 @@
 1. [Quicksort](quicksort)
 2. [Benchmarking](benchmarking)
 1. [Mergesort](mergesort)
-<!-- 1. [Bits](bits) -->
-<!-- 1. [Tries](tries) -->
+1. [Bits](bits)
+1. [Tries](tries)
 <!-- 1. [Priority Queues](priority_queues) -->
 <!-- 1. [Immutable Collections](immutables) -->
 <!-- 1. [Compresión](compression) -->
