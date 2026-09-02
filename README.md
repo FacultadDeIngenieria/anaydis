@@ -10,7 +10,7 @@
 1. [Mergesort](mergesort)
 1. [Bits](bits)
 1. [Tries](tries)
-<!-- 1. [Priority Queues](priority_queues) -->
+1. [Priority Queues](priority_queues)
 <!-- 1. [Immutable Collections](immutables) -->
 <!-- 1. [Compresión](compression) -->
 <!-- 1. [String Searching](string_search) -->
@@ -24,7 +24,7 @@
 2. [TP2](practice/2)
 1. [TP3](practice/3)
 1. [TP4](practice/4)
-<!-- 1. [TP5](practice/5) -->
+1. [TP5](practice/5)
 <!-- 1. [TP6](practice/6) -->
 <!-- 1. [TP7](practice/7) -->
 <!-- 1. [TP8](practice/8) -->
