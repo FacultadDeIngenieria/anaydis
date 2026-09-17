@@ -11,6 +11,7 @@
 1. [Bits](bits)
 1. [Tries](tries)
 1. [Priority Queues](priority_queues)
+1. [Repaso Primer Parcial](repaso_primer_parcial)
 1. [Immutable Collections](immutables)
 <!-- 1. [Compresión](compression) -->
 <!-- 1. [String Searching](string_search) -->
