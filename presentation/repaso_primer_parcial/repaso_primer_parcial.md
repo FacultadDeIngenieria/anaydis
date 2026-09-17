@@ -310,20 +310,20 @@ public interface LinkedListSorter {
 }
 
 private static class SelectionSorter implements LinkedListSorter {
-    private static <T> Node<T> findMax(Node<T> h, Comparator<T> comparator) {
+    private static <T> Node<T> findMax(Node<T> head, Comparator<T> comparator) {
         // Completar
     }
 
     @Override
     public <T> Node<T> sort(Node<T> list, Comparator<T> comparator) {
-        final Node<T> head = new Node<>(null, list);
-        Node<T> out = null;
+        final Node<T> inputHead = new Node<>(null, list);
+        Node<T> output = null;
 
         while (/* completar */) {
             // Completar
         }
 
-        return out;
+        return output;
     }
 }
 ```
@@ -375,13 +375,13 @@ Los máximos se extraen de mayor a menor, pero se agregan al frente. La salida t
 # El nodo cabecera
 
 ```java
-final Node<T> head = new Node<>(null, list);
+final Node<T> inputHead = new Node<>(null, list);
 ```
 
-`head` es un nodo auxiliar anterior al primer elemento real.
+`inputHead` es un nodo auxiliar anterior al primer elemento real.
 
 ```text
-head → 4 → 2 → 7 → 3 → null
+inputHead → 4 → 2 → 7 → 3 → null
 ```
 
 Permite eliminar cualquier elemento con la misma operación, incluso cuando el máximo ocupa la primera posición.
@@ -413,38 +413,52 @@ Por eso `findMax` devuelve el predecesor del máximo, no el máximo.
 # Paso 1: recorrer los candidatos
 
 ```java
-private static <T> Node<T> findMax(Node<T> h, Comparator<T> comparator) {
-    for (Node<T> t = h; t.next() != null; t = t.next()) {
-        // Comparar h.next() contra t.next()
+private static <T> Node<T> findMax(Node<T> head, Comparator<T> comparator) {
+    Node<T> maxPrevious = head;
+
+    for (Node<T> currentPrevious = head;
+         currentPrevious.next() != null;
+         currentPrevious = currentPrevious.next()) {
+        // Comparar maxPrevious.next() con currentPrevious.next()
     }
-    return h;
+
+    return maxPrevious;
 }
 ```
 
 Durante el recorrido:
 
-* `t.next()` es el candidato actual
-* `h.next()` es el mayor encontrado hasta el momento
-* `t` y `h` son los predecesores de esos elementos
+* `currentPrevious.next()` es el candidato actual
+* `maxPrevious.next()` es el mayor encontrado hasta el momento
+* Ambas variables apuntan a los predecesores de esos elementos
 
 ---
 
 # Paso 2: actualizar el máximo
 
 ```java
-if (comparator.compare(h.next().value(), t.next().value()) < 0) {
-    h = t;
+if (comparator.compare(maxPrevious.next().value(),
+                       currentPrevious.next().value()) < 0) {
+    maxPrevious = currentPrevious;
 }
 ```
 
-Si `h.next()` es menor que `t.next()`, el candidato actual pasa a ser el nuevo máximo.
+Si el máximo actual es menor que el candidato, actualizamos su predecesor.
 
 ```java
-private static <T> Node<T> findMax(Node<T> h, Comparator<T> comparator) {
-    for (Node<T> t = h; t.next() != null; t = t.next())
-        if (comparator.compare(h.next().value(), t.next().value()) < 0)
-            h = t;
-    return h;
+private static <T> Node<T> findMax(Node<T> head, Comparator<T> comparator) {
+    Node<T> maxPrevious = head;
+
+    for (Node<T> currentPrevious = head;
+         currentPrevious.next() != null;
+         currentPrevious = currentPrevious.next()) {
+        if (comparator.compare(maxPrevious.next().value(),
+                               currentPrevious.next().value()) < 0) {
+            maxPrevious = currentPrevious;
+        }
+    }
+
+    return maxPrevious;
 }
 ```
 
@@ -453,7 +467,7 @@ private static <T> Node<T> findMax(Node<T> h, Comparator<T> comparator) {
 # Traza de `findMax`
 
 ```text
-head → 4 → 2 → 7 → 3 → null
+inputHead → 4 → 2 → 7 → 3 → null
 ```
 
 | Candidato | Mayor actual | Acción |
@@ -470,21 +484,21 @@ Resultado: `findMax` devuelve el nodo que contiene `2`, porque es el predecesor 
 # Paso 3: repetir mientras queden nodos
 
 ```java
-final Node<T> head = new Node<>(null, list);
-Node<T> out = null;
+final Node<T> inputHead = new Node<>(null, list);
+Node<T> output = null;
 
-while (head.next() != null) {
-    final Node<T> max = findMax(head, comparator);
-    final Node<T> t = max.next();
+while (inputHead.next() != null) {
+    final Node<T> maxPrevious = findMax(inputHead, comparator);
+    final Node<T> maximum = maxPrevious.next();
 
-    // Extraer t y agregarlo a out.
+    // Extraer maximum y agregarlo a output.
 }
 ```
 
 El ciclo termina cuando la lista de entrada queda vacía.
 
-* `max` es el predecesor
-* `t` es el nodo máximo
+* `maxPrevious` es el predecesor del máximo
+* `maximum` es el nodo máximo
 
 ---
 
@@ -493,24 +507,24 @@ El ciclo termina cuando la lista de entrada queda vacía.
 Antes:
 
 ```text
-max → t → siguiente
+maxPrevious → maximum → siguiente
 ```
 
 Operación:
 
 ```java
-max.setNext(t.next());
+maxPrevious.setNext(maximum.next());
 ```
 
 Después:
 
 ```text
-max ─────→ siguiente
+maxPrevious ─────→ siguiente
 
-t
+maximum
 ```
 
-El nodo `t` queda disponible para insertarlo en la salida.
+El nodo `maximum` queda disponible para insertarlo en la salida.
 
 ---
 
@@ -519,20 +533,20 @@ El nodo `t` queda disponible para insertarlo en la salida.
 Antes:
 
 ```text
-t          out → ...
+maximum          output → ...
 ```
 
 Operaciones:
 
 ```java
-t.setNext(out);
-out = t;
+maximum.setNext(output);
+output = maximum;
 ```
 
 Después:
 
 ```text
-out → t → salida anterior
+output → maximum → salida anterior
 ```
 
 El algoritmo reutiliza el nodo extraído. No crea una copia.
@@ -544,19 +558,19 @@ El algoritmo reutiliza el nodo extraído. No crea una copia.
 ```java
 @Override
 public <T> Node<T> sort(Node<T> list, Comparator<T> comparator) {
-    final Node<T> head = new Node<>(null, list);
-    Node<T> out = null;
+    final Node<T> inputHead = new Node<>(null, list);
+    Node<T> output = null;
 
-    while (head.next() != null) {
-        final Node<T> max = findMax(head, comparator);
-        final Node<T> t = max.next();
+    while (inputHead.next() != null) {
+        final Node<T> maxPrevious = findMax(inputHead, comparator);
+        final Node<T> maximum = maxPrevious.next();
 
-        max.setNext(t.next());
-        t.setNext(out);
-        out = t;
+        maxPrevious.setNext(maximum.next());
+        maximum.setNext(output);
+        output = maximum;
     }
 
-    return out;
+    return output;
 }
 ```
 
@@ -613,8 +627,8 @@ El tiempo es `O(N²)` y la memoria auxiliar es `O(1)`.
 ## Selection Sort
 
 * Devolver el máximo en lugar de su predecesor
-* Perder `t.next()` antes de desenlazar
-* Olvidar conectar `t` con la salida anterior
+* Perder `maximum.next()` antes de desenlazar
+* Olvidar conectar `maximum` con la salida anterior
 * Buscar el mínimo y mantener la misma reconstrucción
 
 ---
