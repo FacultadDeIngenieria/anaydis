@@ -135,13 +135,8 @@ La búsqueda comienza:
 # Paso 2: identificar el caso actual
 
 ```java
-private void wildcard(
-        Node<V> node,
-        String pattern,
-        int index,
-        String prefix,
-        List<String> result
-) {
+private void wildcard(Node<V> node, String pattern, int index,
+                      String prefix, List<String> result) {
     if (node == null) return;
 
     final char expected = pattern.charAt(index);
@@ -168,9 +163,7 @@ if (isWildcard && isLast) {
 `collect` agrega todas las claves existentes desde ese nivel:
 
 ```java
-private void collect(Node<V> node,
-                     List<String> result,
-                     String key) {
+private void collect(Node<V> node, List<String> result, String key) {
     if (node.left != null) collect(node.left, result, key);
     if (node.value != null) result.add(key + node.chr);
     if (node.middle != null) collect(node.middle, result, key + node.chr);
@@ -215,8 +208,7 @@ if (isWildcard || expected == node.chr) {
             result.add(current);
         }
     } else {
-        wildcard(node.middle, pattern, index + 1,
-                 current, result);
+        wildcard(node.middle, pattern, index + 1, current, result);
     }
 }
 ```
@@ -318,19 +310,19 @@ public interface LinkedListSorter {
 }
 
 private static class SelectionSorter implements LinkedListSorter {
-    private static <T> Node<T> findMax(
-            Node<T> h, Comparator<T> comparator) {
+    private static <T> Node<T> findMax(Node<T> h, Comparator<T> comparator) {
         // Completar
     }
 
     @Override
-    public <T> Node<T> sort(
-            Node<T> list, Comparator<T> comparator) {
+    public <T> Node<T> sort(Node<T> list, Comparator<T> comparator) {
         final Node<T> head = new Node<>(null, list);
         Node<T> out = null;
+
         while (/* completar */) {
             // Completar
         }
+
         return out;
     }
 }
@@ -421,17 +413,10 @@ Por eso `findMax` devuelve el predecesor del máximo, no el máximo.
 # Paso 1: recorrer los candidatos
 
 ```java
-private static <T> Node<T> findMax(
-        Node<T> h,
-        Comparator<T> comparator
-) {
-    for (Node<T> t = h;
-         t.next() != null;
-         t = t.next()) {
-
+private static <T> Node<T> findMax(Node<T> h, Comparator<T> comparator) {
+    for (Node<T> t = h; t.next() != null; t = t.next()) {
         // Comparar h.next() contra t.next()
     }
-
     return h;
 }
 ```
@@ -447,10 +432,7 @@ Durante el recorrido:
 # Paso 2: actualizar el máximo
 
 ```java
-if (comparator.compare(
-        h.next().value(),
-        t.next().value()
-) < 0) {
+if (comparator.compare(h.next().value(), t.next().value()) < 0) {
     h = t;
 }
 ```
@@ -458,13 +440,9 @@ if (comparator.compare(
 Si `h.next()` es menor que `t.next()`, el candidato actual pasa a ser el nuevo máximo.
 
 ```java
-private static <T> Node<T> findMax(
-        Node<T> h,
-        Comparator<T> comparator
-) {
+private static <T> Node<T> findMax(Node<T> h, Comparator<T> comparator) {
     for (Node<T> t = h; t.next() != null; t = t.next())
-        if (comparator.compare(h.next().value(),
-                               t.next().value()) < 0)
+        if (comparator.compare(h.next().value(), t.next().value()) < 0)
             h = t;
     return h;
 }
@@ -565,8 +543,7 @@ El algoritmo reutiliza el nodo extraído. No crea una copia.
 
 ```java
 @Override
-public <T> Node<T> sort(Node<T> list,
-                        Comparator<T> comparator) {
+public <T> Node<T> sort(Node<T> list, Comparator<T> comparator) {
     final Node<T> head = new Node<>(null, list);
     Node<T> out = null;
 
