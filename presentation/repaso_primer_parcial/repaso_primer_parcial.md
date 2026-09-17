@@ -26,6 +26,24 @@ En ambos ejercicios importa entender qué representa cada referencia. El código
 
 ---
 
+# Consigna: Wildcard Search
+
+Implementar Wildcard Search utilizando un `TSTTrieMap`.
+
+Dado un diccionario de palabras, obtener las palabras que coincidan con una cadena ingresada por el usuario.
+
+```text
+d**o → dado, dedo, dejo, dijo
+```
+
+Un `*` intermedio representa exactamente un carácter. Si es el último carácter, acepta cualquier continuación.
+
+```java
+public List<String> wildcard(Node<V> root, String pattern)
+```
+
+---
+
 # Wildcard Search
 
 Un nodo del TST contiene:
@@ -286,6 +304,36 @@ HOLANDA     ✓
 HOLAAAAAAA  ✓
 HOL         ✗  falta el carácter representado por *
 HOJA        ✗  no coincide el prefijo HOL
+```
+
+---
+
+# Consigna: Selection Sort con Linked Lists
+
+Completar el código necesario para implementar Selection Sort con listas enlazadas.
+
+```java
+public interface LinkedListSorter {
+    <T> Node<T> sort(Node<T> list, Comparator<T> comparator);
+}
+
+private static class SelectionSorter implements LinkedListSorter {
+    private static <T> Node<T> findMax(
+            Node<T> h, Comparator<T> comparator) {
+        // Completar
+    }
+
+    @Override
+    public <T> Node<T> sort(
+            Node<T> list, Comparator<T> comparator) {
+        final Node<T> head = new Node<>(null, list);
+        Node<T> out = null;
+        while (/* completar */) {
+            // Completar
+        }
+        return out;
+    }
+}
 ```
 
 ---
