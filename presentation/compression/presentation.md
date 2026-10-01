@@ -25,6 +25,8 @@ class: center, middle, inverse
   * Sonido 
   * Video
 
+.center[![]({{site.baseurl}}/presentation/compression/data_compress_model.png)]
+
 ---
 
 # Run-Length Encoding (RLE)
