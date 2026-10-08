@@ -10,9 +10,10 @@
 1. [Mergesort](mergesort)
 1. [Bits](bits)
 1. [Tries](tries)
-<!-- 1. [Priority Queues](priority_queues) -->
-<!-- 1. [Immutable Collections](immutables) -->
-<!-- 1. [Compresión](compression) -->
+1. [Priority Queues](priority_queues)
+1. [Repaso Primer Parcial](repaso_primer_parcial)
+1. [Immutable Collections](immutables)
+1. [Compresión](compression)
 <!-- 1. [String Searching](string_search) -->
 <!-- 1. [Cryptography](https://docs.google.com/a/ing.austral.edu.ar/presentation/d/1UAU9YEm9NVGmVXYC1T2WYYG6PKFZ23wY7HGL77-XZCI/edit?usp=sharing) -->
 <!-- 1. [Backtracking](https://drive.google.com/file/d/1kjeVc61dPF3KXVXugfmEB4qWhdn-zxlR/view?usp=drive_link) -->
@@ -23,10 +24,10 @@
 1. [TP1](practice/1)
 2. [TP2](practice/2)
 1. [TP3](practice/3)
-<!-- 1. [TP4](practice/4) -->
-<!-- 1. [TP5](practice/5) -->
-<!-- 1. [TP6](practice/6) -->
-<!-- 1. [TP7](practice/7) -->
+1. [TP4](practice/4)
+1. [TP5](practice/5)
+1. [TP6](practice/6)
+1. [TP7](practice/7)
 <!-- 1. [TP8](practice/8) -->
 <!-- 1. [TP9](practice/9) -->
 <!-- 1. [TP10](practice/10) -->
@@ -63,7 +64,7 @@
 ## Parciales
 
 1. Primer parcial: 24 de septiembre de 2026
-2. Segundo parcial: 5 de noviembre de 2026
+2. Segundo parcial: 12 de noviembre de 2026
 
 <!-- 1. [Examen Nivelador](https://forms.gle/C69Vex6gG9Hch7XG8)  -->
 
@@ -73,7 +74,7 @@
 
 ## Notas de las Prácticas
 
-<!-- - [Link](https://docs.google.com/spreadsheets/d/17nbkRiuJ_VSXmryzxHN4f9wubV8z0Lh-4_nEnQLyrwY/edit?usp=sharing)  -->
+- [Link](https://docs.google.com/spreadsheets/d/17nbkRiuJ_VSXmryzxHN4f9wubV8z0Lh-4_nEnQLyrwY/edit?usp=sharing)
 
 ## Cátedra
 
