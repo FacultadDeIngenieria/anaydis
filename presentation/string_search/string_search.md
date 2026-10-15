@@ -175,7 +175,7 @@ class RabinKarp
         int m = pattern.length();
         int n = text.length();
         int radixMod = 1;
-        int patternHash = 0;
+        int patternHash, textHash = 0;
         
         for (int i = 1; i < m; i++)
             radixMod = (RADIX * radixMod) % MODULE;
