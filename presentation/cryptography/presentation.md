@@ -713,16 +713,16 @@ class: center, middle, inverse
 
 # Diffie-Hellman (1976)
 
-* Públicos: un primo **p** y un generador **g**. Ej: p = 23, g = 5.
+* Públicos: un primo **p** y un generador **g**. Ej: p = 17, g = 3.
 
 --
 
 | Alice | Canal público | Bob |
 |---|:-:|---|
 | Elige a = 6 (secreto) | | Elige b = 15 (secreto) |
-| A = 5⁶ mod 23 = **8** | A = 8 → | |
-| | ← B = 19 | B = 5¹⁵ mod 23 = **19** |
-| s = 19⁶ mod 23 = **2** | | s = 8¹⁵ mod 23 = **2** |
+| A = 3⁶ mod 17 = **15** | A = 15 → | |
+| | ← B = 6 | B = 3¹⁵ mod 17 = **6** |
+| s = 6⁶ mod 17 = **8** | | s = 15¹⁵ mod 17 = **8** |
 
 --
 
