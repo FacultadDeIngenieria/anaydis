@@ -16,6 +16,8 @@
 1. [Compresión](compression)
 1. [String Searching](string_search)
 1. [Criptografía](cryptography)
+1. [Backtracking](backtracking)
+<!-- 1. [Cryptography](https://docs.google.com/a/ing.austral.edu.ar/presentation/d/1UAU9YEm9NVGmVXYC1T2WYYG6PKFZ23wY7HGL77-XZCI/edit?usp=sharing) -->
 <!-- 1. [Backtracking](https://drive.google.com/file/d/1kjeVc61dPF3KXVXugfmEB4qWhdn-zxlR/view?usp=drive_link) -->
 <!-- 10. [KDTrees](https://docs.google.com/presentation/d/1PRaMmgOBoi9FqL7niK6TClSKqtPhUb9a3XePVo2WH-I/edit#slide=id.g2680d7c9ef_0_0) -->
 
